@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import { useFadeNavigate } from '../fx.jsx';
-import { pageStyle, T } from '../theme.js';
 import { INTRO } from '../data.js';
 import ImageSlot from '../components/ImageSlot.jsx';
 
@@ -42,24 +41,25 @@ export default function Landing() {
   }, []);
 
   return (
-    <div style={{ ...pageStyle, display: 'flex', flexDirection: 'column', overflow: 'hidden', height: '100vh' }}>
-      <div ref={containerRef} style={{ width: '100%', padding: '18px 24px 0', overflow: 'hidden' }}>
-        <span style={{ fontWeight: 300, fontSize, lineHeight: 0.95, display: 'inline-block', whiteSpace: 'nowrap' }}>
+    <div className="page-container landing-page">
+      <div ref={containerRef} className="landing-name-container">
+        <span className="landing-name" style={{ fontSize }}>
           Rubinho Mulungo
         </span>
       </div>
-      <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <div style={{ position: 'relative', width: 220, aspectRatio: '11/7', overflow: 'hidden' }}>
+      <div className="landing-center">
+        <div className="landing-frame-container">
           {FRAMES.map((label, i) => (
-            <div key={i} style={{ position: 'absolute', inset: 0, opacity: i === frame ? 1 : 0, transition: 'opacity .3s linear' }}>
-              <ImageSlot label={label} style={{ width: '100%', height: '100%' }} />
+            <div key={i} className="landing-frame" style={{ opacity: i === frame ? 1 : 0 }}>
+              <ImageSlot label={label} className="full-size" />
             </div>
           ))}
         </div>
       </div>
-      <p style={{ fontSize: 36, lineHeight: 1.5, color: T.fg, width: '100%', padding: '0 24px', margin: '0 0 12px' }}>
+      <p className="landing-intro">
         {INTRO}
       </p>
     </div>
   );
 }
+
