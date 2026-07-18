@@ -48,6 +48,7 @@ export default function UXCaseStudies() {
       <section data-reveal className="ux-footer-section">
         <div className="info-contacts-list">
           <div>
+            <div className="contacts-heading">Rubinho Mulungo</div>
             <a href="mailto:info@rubinhomulungo.com">info@rubinhomulungo.com</a>
           </div>
           <div>Currently Based in Milan, Italy</div>
