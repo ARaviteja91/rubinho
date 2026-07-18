@@ -28,7 +28,7 @@ export default function Nia() {
         <h1 className="nia-title">
           Nia, <span style={{ color: 'var(--muted)' }}>AI for the Global South</span>
         </h1>
-        <span className="nia-subtitle">Brainstorming Process</span>
+        <span className="nia-subtitle nia-br">Brainstorming Process</span>
       </div>
 
       <div className="rm-filmstrip">
