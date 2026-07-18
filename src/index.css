@@ -507,7 +507,7 @@ a:not([data-tile]):hover {
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
-  padding: 160px 24px 0;
+  padding: 100px 24px 0;
 }
 
 .nia-title-row.alt-padding {
@@ -567,7 +567,7 @@ a:not([data-tile]):hover {
 }
 
 .nia-section {
-  padding: 0 24px 60px;
+  padding: 0 24px 79px;
 }
 
 .nia-offset-images {
@@ -596,7 +596,7 @@ a:not([data-tile]):hover {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding: 0 12px 60px;
+  padding: 0 12px 79px;
 }
 
 .nia-billboard-wrapper {
@@ -626,13 +626,16 @@ a:not([data-tile]):hover {
 }
 
 .nia-video-feature {
-  width: 100%;
-  aspect-ratio: 1900/1121;
-  background-color: var(--fg);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
   margin: 0 0 80px;
+}
+
+.nia-video-feature iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: none;
+  display: block;
 }
 
 .nia-video-label {
@@ -645,11 +648,11 @@ a:not([data-tile]):hover {
 
 .nia-index-section {
   /* border-top: 1px solid var(--rule); */
-  padding: 14px 24px 160px;
+  padding: 236px 10px;
 }
 
 .nia-index-heading {
-  font-size: clamp(18px, 4vw, 40px);
+  font-size: clamp(18px, 6vw, 34px);
   font-weight: 300;
   margin: 0 0 12px;
 }
@@ -671,7 +674,7 @@ a:not([data-tile]):hover {
   padding: 9px 0;
   /* border-bottom: 1px solid var(--rule); */
   cursor: default;
-  font-size: 20px;
+  font-size: 34px;
 }
 
 .nia-index-num {
