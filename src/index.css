@@ -277,7 +277,7 @@ a:not([data-tile]):hover {
 .landing-name-container {
   width: 100%;
   padding: 18px 24px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .landing-name {
@@ -371,13 +371,13 @@ a:not([data-tile]):hover {
 }
 
 .contacts-link {
-  font-size: clamp(18px, 4vw, 26px);
+  font-size: clamp(18px, 4vw, 34px);
   border-bottom: 1px solid var(--rule);
   display: inline-block;
 }
 
 .contacts-email {
-  font-size: clamp(18px, 4vw, 26px);
+  font-size: clamp(18px, 4vw, 34px);
   display: block;
   width: fit-content;
 }
@@ -677,7 +677,7 @@ a:not([data-tile]):hover {
 .nia-index-item {
   display: flex;
   gap: 14px;
-  padding: 9px 0;
+  padding: 5px 0;
   /* border-bottom: 1px solid var(--rule); */
   cursor: default;
   font-size: 34px;

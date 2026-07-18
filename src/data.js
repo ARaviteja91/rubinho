@@ -5,12 +5,7 @@ export const workProjects = [
   { client: 'Form', title: 'Woodwork Series', span: 7, ratio: '16/10' },
   { client: 'Halo', title: 'Watchcase', span: 4, ratio: '1/1' },
   { client: 'Halo', title: 'Personal', span: 4, ratio: '1/1' },
-  { client: 'Halo', title: 'Redesign an Icon', span: 4, ratio: '1/1' },
-  { client: 'Vela', title: 'Storage Systems', span: 6, ratio: '16/11' },
-  { client: 'Studio', title: 'Tiles, Milan', span: 6, ratio: '16/11' },
-  { client: 'Meridian', title: 'Portal Essential', span: 4, ratio: '3/4' },
-  { client: 'Meridian', title: 'Portal TV', span: 4, ratio: '3/4' },
-  { client: 'Studio', title: 'Passport Holder', span: 4, ratio: '3/4' }
+
 ];
 
 export const uxProjects = [
