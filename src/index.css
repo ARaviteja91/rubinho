@@ -649,7 +649,7 @@ a:not([data-tile]):hover {
 }
 
 .nia-index-heading {
-  font-size: clamp(18px, 4vw, 26px);
+  font-size: clamp(18px, 4vw, 40px);
   font-weight: 300;
   margin: 0 0 12px;
 }
@@ -696,44 +696,47 @@ a:not([data-tile]):hover {
 }
 
 /* Info page specific styles */
-.info-desc-section {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 32px;
-  padding: 100px 24px 40px;
+.info-row-1 {
+  padding: 160px 24px 15px;
 }
 
-.info-portrait-wrapper {
-  flex: 0 0 clamp(100px, 20vw, 150px);
+.info-passport-photo {
+  width: 290px;
+  margin: 0 5em;
+  aspect-ratio: 3/4;
+  /* 3:4 portrait passport size photo aspect ratio */
   position: relative;
-  width: clamp(100px, 20vw, 150px);
-  max-width: 150px;
-  aspect-ratio: 289/361;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
-.info-text-wrapper {
-  flex: 1;
-  max-width: 800px;
+.info-row-2 {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  gap: 24px;
+  padding: 0 24px 60px;
 }
 
-.info-paragraph {
-  font-size: clamp(16px, 2.2vw, 24px);
-  line-height: 1.35;
-  font-weight: 300;
-  margin: 0;
-  color: var(--fg);
-  text-align: left;
+.info-row-2-col1 {
+  /* Empty 30% column */
 }
 
-.info-title {
-  font-size: clamp(18px, 2.5vw, 26px);
-  font-weight: 300;
-  margin: 0 0 20px;
+.info-row-2-col2 {
+  /* Contains the bio text */
 }
 
-.info-services-section {
-  padding: 0 24px 40px 337px;
+.info-row-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  padding: 0 24px 60px;
+}
+
+.info-row-3-col1 {
+  /* Empty 50% column */
+}
+
+.info-row-3-col2 {
+  /* Contains services */
 }
 
 .info-services-list {
@@ -745,20 +748,15 @@ a:not([data-tile]):hover {
   gap: 6px;
 }
 
-.info-services-item {
-  font-size: clamp(16px, 2.2vw, 24px);
-  font-weight: 300;
-}
-
-.info-contacts-section {
-  padding: 20px 24px 40px;
+.info-row-4 {
+  padding: 20px 24px 60px;
 }
 
 .info-contacts-list {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: clamp(16px, 2.2vw, 24px);
+  font-size: clamp(20px, 4.5vw, 34px);
 }
 
 .info-credit-section {
@@ -766,7 +764,36 @@ a:not([data-tile]):hover {
   color: var(--muted);
 }
 
+@media (max-width: 768px) {
+  .info-row-1 {
+    padding-top: 100px;
+  }
+
+  .info-row-2 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .info-row-2-col1 {
+    display: none;
+  }
+
+  .info-row-3 {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .info-row-3-col1 {
+    display: none;
+  }
+}
+
+.info-services-item {
+  font-size: clamp(20px, 4.5vw, 34px);
+  font-weight: 300;
+}
+
 .info-credit-text {
-  font-size: clamp(14px, 1.8vw, 20px);
+  font-size: clamp(20px, 4.5vw, 34px);
   line-height: 1.4;
 }
