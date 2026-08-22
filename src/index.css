@@ -225,6 +225,12 @@ a:not([data-tile]):hover {
   overflow: hidden;
 }
 
+.landing-cover {
+  width: 220px;
+  height: 100%;
+  object-fit: fill;
+}
+
 .image-placeholder-label {
   font-family: 'Untitled Sans Light', sans-serif;
   font-size: 10px;
@@ -356,35 +362,51 @@ a:not([data-tile]):hover {
   overflow: hidden;
 }
 
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .contacts-section {
-  padding: 14px 24px 0;
+  padding: 80px 24px 40px;
 }
 
 .contacts-inner {
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
-.contacts-heading {
-  font-size: clamp(18px, 4vw, 34px);
+.contacts-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: clamp(16px, 2vw, 22px);
+  line-height: 1.45;
+  color: var(--fg);
+  font-weight: 300;
 }
 
-.contacts-link {
-  font-size: clamp(18px, 4vw, 34px);
-  border-bottom: 1px solid var(--rule);
-  display: inline-block;
+.contacts-line {
+  color: var(--fg);
 }
 
 .contacts-email {
-  font-size: clamp(18px, 4vw, 34px);
+  color: var(--fg);
+  font-size: inherit;
   display: block;
   width: fit-content;
 }
 
-.contacts-row {
-  display: flex;
-  gap: 14px;
+.contacts-sublink {
+  color: var(--fg);
+  border-bottom: 1px solid var(--fg);
+  transition: opacity .25s ease;
+}
+
+.contacts-sublink:hover {
+  opacity: 0.55;
 }
 
 .info-contacts-list {
