@@ -936,6 +936,12 @@ a:not([data-tile]):hover {
   opacity: 0.7;
 }
 
+.vd-index-heading {
+  font-size: clamp(20px, 2.8vw, 30px);
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
 @media (max-width: 768px) {
   .case-grid-2col {
     grid-template-columns: 1fr;

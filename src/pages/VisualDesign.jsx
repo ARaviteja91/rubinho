@@ -1,64 +1,146 @@
+import { useState } from 'react';
+import { visualProjects } from '../data.js';
+import { FadeLink } from '../fx.jsx';
 import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 export default function VisualDesign() {
+  const [hovered, setHovered] = useState(null);
+
+  const label =
+    hovered != null
+      ? visualProjects[hovered].title
+        ? `${visualProjects[hovered].client} / ${visualProjects[hovered].title}`
+        : visualProjects[hovered].client
+      : '';
+
   return (
     <div className="page-container">
-      <Header active="visual" />
+      <Header active="visual" hoverLabel={label} />
 
-      {/* Intro Header */}
       <section data-reveal className="vd-new-intro">
-        <p className="vd-intro-text">
-          A broader look at my creative practice. This collection brings together images, interfaces, systems and experiments that reflect how I think, create and explore visual language.
-        </p>
+        <h1 className="vd-intro-text">
+          A broader look at my creative practice. This collection brings together images, interfaces, systems and
+          experiments that reflect how I think, create and explore visual language.
+        </h1>
       </section>
 
-      {/* 3-Column Grid Section */}
-      <section className="vd-new-grid-section">
+      <section className="vd-new-grid-section" onMouseLeave={() => setHovered(null)}>
         <div className="vd-3col-grid">
           {/* Column 1 */}
           <div className="vd-column">
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '1/1' }}>
-              <img src="/images/HomePage/8.webp" alt="Bloomy" className="grid-image" />
-            </div>
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '4/5' }}>
-              <img src="/images/Visual Design/3. Mille Collines Mugs/1.webp" alt="Mille Collines Tulia Mugs" className="grid-image" />
-            </div>
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '1/1' }}>
-              <img src="/images/Visual Design/hot_ones.png" alt="Hot Ones" className="grid-image" />
-            </div>
+            <FadeLink
+              to={visualProjects[0].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(0)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '1/1' }}>
+                <img src={visualProjects[0].image} alt="Bloomy" className="grid-image" />
+              </div>
+            </FadeLink>
+            <FadeLink
+              to={visualProjects[3].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(3)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
+                <img src={visualProjects[3].image} alt="Tulia Mugs" className="grid-image" />
+              </div>
+            </FadeLink>
+            <FadeLink
+              to={visualProjects[6].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(6)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '1/1' }}>
+                <img src={visualProjects[6].image} alt="Hot Ones" className="grid-image" />
+              </div>
+            </FadeLink>
           </div>
 
           {/* Column 2 */}
           <div className="vd-column">
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '16/10' }}>
-              <img src="/images/HomePage/5.webp" alt="NotePad" className="grid-image" />
-            </div>
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '1/1' }}>
-              <img src="/images/HomePage/7.webp" alt="J.L PaPa" className="grid-image" />
-            </div>
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '4/5' }}>
-              <img src="/images/Visual Design/drivr.png" alt="DRIVR" className="grid-image" />
-            </div>
+            <FadeLink
+              to={visualProjects[1].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(1)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '16/9' }}>
+                <img src={visualProjects[1].image} alt="NotePad" className="grid-image" />
+              </div>
+            </FadeLink>
+            <FadeLink
+              to={visualProjects[4].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(4)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '1/1' }}>
+                <img src={visualProjects[4].image} alt="J.L PaPa" className="grid-image" />
+              </div>
+            </FadeLink>
+            <FadeLink
+              to={visualProjects[7].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(7)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
+                <img src={visualProjects[7].image} alt="DrivR" className="grid-image" />
+              </div>
+            </FadeLink>
           </div>
 
           {/* Column 3 */}
           <div className="vd-column">
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '4/5' }}>
-              <img src="/images/HomePage/6.webp" alt="Mille Collines Sweater" className="grid-image" />
-            </div>
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '16/10' }}>
-              <img src="/images/Visual Design/1. IoT Interface/0.webp" alt="IoT Interface" className="grid-image" />
-            </div>
-            <div data-reveal className="grid-tile" style={{ aspectRatio: '4/5' }}>
-              <img src="/images/Visual Design/punk_anime.png" alt="Punk Anime" className="grid-image" />
-            </div>
+            <FadeLink
+              to={visualProjects[2].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(2)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
+                <img src={visualProjects[2].image} alt="Simbisi Sweater" className="grid-image" />
+              </div>
+            </FadeLink>
+            <FadeLink
+              to={visualProjects[5].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(5)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '16/9' }}>
+                <img src={visualProjects[5].image} alt="IoT Interface" className="grid-image" />
+              </div>
+            </FadeLink>
+            <FadeLink
+              to={visualProjects[8].link}
+              data-tile
+              data-reveal
+              onMouseEnter={() => setHovered(8)}
+              className="grid-item"
+            >
+              <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
+                <img src={visualProjects[8].image} alt="Punk Anime" className="grid-image" />
+              </div>
+            </FadeLink>
           </div>
         </div>
       </section>
 
-      {/* Footer Contacts Section */}
-      <section data-reveal className="vd-new-footer">
+      <section data-reveal className="contacts-section">
         <div className="contacts-text-block">
           <a href="mailto:info@rubinhomulungo.com" className="contacts-sublink">
             info@rubinhomulungo.com
