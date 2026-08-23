@@ -7,6 +7,7 @@ import Marquee from '../components/Marquee.jsx';
 export default function UXCaseStudies() {
   const [hovered, setHovered] = useState(null);
   const label = hovered != null ? `${uxProjects[hovered].client} / ${uxProjects[hovered].title}` : '';
+
   return (
     <div className="page-container">
       <Header active="ux" hoverLabel={label} />
@@ -22,35 +23,18 @@ export default function UXCaseStudies() {
               </div>
             );
 
-            if (p.link) {
-              return (
-                <FadeLink
-                  key={i}
-                  to={p.link}
-                  data-tile
-                  data-reveal
-                  onMouseEnter={() => setHovered(i)}
-                  className="grid-item"
-                  style={gridStyle}
-                >
-                  {content}
-                </FadeLink>
-              );
-            }
-
             return (
-              <a
+              <FadeLink
                 key={i}
-                href="#index"
+                to={p.link}
                 data-tile
                 data-reveal
                 onMouseEnter={() => setHovered(i)}
-                onClick={(e) => e.preventDefault()}
                 className="grid-item"
                 style={gridStyle}
               >
                 {content}
-              </a>
+              </FadeLink>
             );
           })}
         </div>
@@ -93,4 +77,3 @@ export default function UXCaseStudies() {
     </div>
   );
 }
-
