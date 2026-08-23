@@ -225,6 +225,12 @@ a:not([data-tile]):hover {
   overflow: hidden;
 }
 
+.landing-cover {
+  width: 220px;
+  height: 100%;
+  object-fit: fill;
+}
+
 .image-placeholder-label {
   font-family: 'Untitled Sans Light', sans-serif;
   font-size: 10px;
@@ -356,35 +362,51 @@ a:not([data-tile]):hover {
   overflow: hidden;
 }
 
+.grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .contacts-section {
-  padding: 14px 24px 0;
+  padding: 80px 24px 40px;
 }
 
 .contacts-inner {
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
-.contacts-heading {
-  font-size: clamp(18px, 4vw, 34px);
+.contacts-text-block {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: clamp(16px, 2vw, 22px);
+  line-height: 1.45;
+  color: var(--fg);
+  font-weight: 300;
 }
 
-.contacts-link {
-  font-size: clamp(18px, 4vw, 34px);
-  border-bottom: 1px solid var(--rule);
-  display: inline-block;
+.contacts-line {
+  color: var(--fg);
 }
 
 .contacts-email {
-  font-size: clamp(18px, 4vw, 34px);
+  color: var(--fg);
+  font-size: inherit;
   display: block;
   width: fit-content;
 }
 
-.contacts-row {
-  display: flex;
-  gap: 14px;
+.contacts-sublink {
+  color: var(--fg);
+  border-bottom: 1px solid var(--fg);
+  transition: opacity .25s ease;
+}
+
+.contacts-sublink:hover {
+  opacity: 0.55;
 }
 
 .info-contacts-list {
@@ -805,4 +827,124 @@ a:not([data-tile]):hover {
 .info-credit-text {
   font-size: clamp(20px, 4.5vw, 34px);
   line-height: 1.4;
+}
+
+/* Visual Design Page 3-Column Grid Styles */
+.vd-new-intro {
+  padding: 120px 24px 30px;
+  max-width: 1000px;
+}
+
+.vd-intro-text {
+  font-size: clamp(20px, 3.2vw, 32px);
+  font-weight: 300;
+  line-height: 1.3;
+  color: var(--fg);
+  margin: 0;
+}
+
+.vd-new-grid-section {
+  padding: 0 24px 60px;
+}
+
+.vd-3col-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.vd-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vd-new-footer {
+  padding: 40px 24px 80px;
+}
+
+@media (max-width: 768px) {
+  .vd-new-intro {
+    padding-top: 100px;
+  }
+
+  .vd-3col-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+}
+
+/* Case Study Layout Utilities */
+.case-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  padding: 0 24px 40px;
+}
+
+.case-single-img {
+  padding: 0 24px 40px;
+}
+
+.case-single-img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 24px 40px;
+}
+
+.icon-center-img {
+  max-width: 180px;
+  height: auto;
+}
+
+.case-img-tile {
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-placeholder {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(32px, 5vw, 64px);
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.nia-index-item.is-muted,
+.is-muted {
+  opacity: 0.4;
+  color: var(--muted);
+}
+
+.nia-index-item {
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+  font-size: clamp(20px, 2.8vw, 30px);
+  font-weight: 300;
+  line-height: 1.3;
+  transition: opacity 0.2s ease;
+}
+
+.nia-index-item:hover {
+  opacity: 0.7;
+}
+
+.vd-index-heading {
+  font-size: clamp(20px, 2.8vw, 30px);
+  font-weight: 300;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+  .case-grid-2col {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
 }

@@ -49,11 +49,13 @@ export default function Landing() {
       </div>
       <div className="landing-center">
         <div className="landing-frame-container">
-          {FRAMES.map((label, i) => (
+          {/* {FRAMES.map((label, i) => (
             <div key={i} className="landing-frame" style={{ opacity: i === frame ? 1 : 0 }}>
               <ImageSlot label={label} className="full-size" />
             </div>
-          ))}
+            ))} */}
+          <img src="/images/HomePage/1.webp" alt="" className="landing-cover" />
+
         </div>
       </div>
       <p className="landing-intro">

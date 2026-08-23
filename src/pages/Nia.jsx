@@ -1,25 +1,30 @@
 import { useRef, useState } from 'react';
 import { uxProjects } from '../data.js';
+import { FadeLink } from '../fx.jsx';
 import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
-const filmstripBase = [
-  { width: 180, ratio: '292/405', src: '/images/brainstorm-1.png' },
-  { width: 180, ratio: '292/405', src: '/images/brainstorm-2.png' },
-  { width: 468, ratio: '758/405', src: '/images/brainstorm-3.png' },
-  { width: 180, ratio: '292/405', src: '/images/brainstorm-4.png' }
+const brainstormImages = [
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/1.webp',
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/2.webp',
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/3.webp',
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/4.webp',
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/5.webp',
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/6.webp',
+  '/images/Ux Case Studies/A _NIA/Brainstorming Process/7.webp'
 ];
-const filmstrip = [...filmstripBase, ...filmstripBase];
 
 export default function Nia() {
   const [hovered, setHovered] = useState(null);
   const [paused, setPaused] = useState(false);
   const previewRef = useRef(null);
   const label = hovered != null ? `${uxProjects[hovered].client} / ${uxProjects[hovered].title}` : '';
+
   const movePreview = (e) => {
     const el = previewRef.current;
     if (el) el.style.transform = `translate(${e.clientX + 18}px, ${e.clientY + 18}px)`;
   };
+
   return (
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="ux" hoverLabel={label} />
@@ -38,9 +43,9 @@ export default function Nia() {
           className="filmstrip-inner"
           style={{ animationPlayState: paused ? 'paused' : 'running' }}
         >
-          {filmstrip.map((f, i) => (
-            <div key={i} style={{ flex: '0 0 auto', width: f.width, aspectRatio: f.ratio, overflow: 'hidden' }}>
-              <img src={f.src} alt="Brainstorming notes" className="image-slot" />
+          {brainstormImages.concat(brainstormImages).map((src, i) => (
+            <div key={i} className="filmstrip-item">
+              <img src={src} alt="Brainstorming notes" className="image-slot" />
             </div>
           ))}
         </div>
@@ -57,10 +62,10 @@ export default function Nia() {
 
       <div data-reveal className="nia-offset-images">
         <div className="nia-phone-img-wrapper">
-          <img src="/images/nia-phone.png" alt="Phone in hand showing Nia app" className="image-slot" />
+          <img src="/images/Ux Case Studies/A _NIA/2.webp" alt="Phone in hand showing Nia app" className="image-slot" />
         </div>
         <div className="nia-landscape-img-wrapper">
-          <img src="/images/nia-landscape.png" alt="Landscape with Nia logo overlay" className="image-slot" />
+          <img src="/images/Ux Case Studies/A _NIA/1.webp" alt="Landscape with Nia logo overlay" className="image-slot" />
         </div>
       </div>
 
@@ -75,17 +80,17 @@ export default function Nia() {
 
       <div data-reveal className="nia-gallery-block">
         <div className="nia-billboard-wrapper">
-          <img src="/images/nia-billboard.png" alt="Billboard: The Internet is Far, Nia is Here" className="image-slot" />
+          <img src="/images/Ux Case Studies/A _NIA/4.webp" alt="Billboard: The Internet is Far, Nia is Here" className="image-slot" />
         </div>
         <div className="nia-pavilion-wrapper">
-          <img src="/images/nia-pavilion.png" alt="Solar-powered community pavilion" className="image-slot" />
+          <img src="/images/Ux Case Studies/A _NIA/3.webp" alt="Solar-powered community pavilion" className="image-slot" />
         </div>
         <div className="rm-gallery-row">
           <div className="nia-voice-img-wrapper">
-            <img src="/images/nia-voice.png" alt="Phone showing Nia voice interface" className="image-slot" />
+            <img src="/images/Ux Case Studies/A _NIA/5.webp" alt="Phone showing Nia voice interface" className="image-slot" />
           </div>
           <div className="nia-charging-img-wrapper">
-            <img src="/images/nia-charging.png" alt="Community members using solar charging stations" className="image-slot" />
+            <img src="/images/Ux Case Studies/A _NIA/6.webp" alt="Community members using solar charging stations" className="image-slot" />
           </div>
         </div>
       </div>
@@ -99,28 +104,26 @@ export default function Nia() {
       </section>
 
       <div className="nia-video-feature">
-        <iframe width="1920" height="1080" src="https://www.youtube.com/embed/0S_urQD-YAI?si=uMBsl4C35ik1Q7mz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div className="video-placeholder">VIDEO</div>
       </div>
 
       <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
-        <h2 className="nia-index-heading">Index</h2>
         <ul className="nia-index-list">
           {uxProjects.map((p, i) => (
-            <li
-              key={i}
-              onMouseEnter={() => setHovered(i)}
-              onMouseMove={movePreview}
-              className="nia-index-item"
-              style={{ opacity: i === 0 ? 0.4 : 1 }}
-            >
-              <span style={{ color: 'var(--muted)' }}>{p.client}</span>
-              <span>{p.title}</span>
+            <li key={i} onMouseEnter={() => setHovered(i)} onMouseMove={movePreview}>
+              <FadeLink
+                to={p.link}
+                className={`nia-index-item ${i === 0 ? 'is-muted' : ''}`}
+              >
+                <span className="index-client">{p.client},</span>{' '}
+                <span className="index-title">{p.title}</span>
+              </FadeLink>
             </li>
           ))}
         </ul>
       </section>
 
-      <Marquee />
+      <Marquee border={false} />
 
       <div
         ref={previewRef}
@@ -135,4 +138,3 @@ export default function Nia() {
     </div>
   );
 }
-
