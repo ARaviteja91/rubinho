@@ -14,19 +14,19 @@ export const uxProjects = [
   { client: 'Davai', title: 'Low Budget Travel App', span: 6, ratio: '1/1', image: '/images/HomePage/2.gif', link: '/ux-case-studies/davai' },
   { client: 'Chirp', title: 'Audiovisual Weather App', span: 12, ratio: '21/9', image: '/images/HomePage/3.webp', link: '/ux-case-studies/chirp' },
   { client: 'Eklat', title: 'Fashion Brand', span: 6, ratio: '1/1', image: '/images/HomePage/4.gif', link: '/ux-case-studies/eklat' },
-  { client: 'Monumentale', title: 'Website Redesign', span: 6, ratio: '4/5', image: '/images/Ux Case Studies/E_MONUMENTALE/0.webp', link: '/ux-case-studies/monumentale' }
+  { client: 'Monumentale', title: 'Website Redesign', span: 6, ratio: '4/5', image: '/images/UxCaseStudies/E_MONUMENTALE/0.webp', link: '/ux-case-studies/monumentale' }
 ];
 
 export const visualProjects = [
-  { client: 'Bloomy', title: 'vegan restaurant', image: '/images/Visual Design/bloomy.png', link: '/visual-design/bloomy' },
-  { client: 'NotePad', title: 'period calendar', image: '/images/Visual Design/notepad.png', link: '/visual-design/notepad' },
-  { client: 'Mille Collines Simbisi Sweater', title: '', image: '/images/Visual Design/sweater.png', link: '/visual-design/simbisi-sweater' },
-  { client: 'Mille Collines Tulia mugs', title: '', image: '/images/Visual Design/tulia_mugs.png', link: '/visual-design/tulia-mugs' },
-  { client: 'J.L PaPa', title: 'blade catalogue', image: '/images/Visual Design/papa.png', link: '/visual-design/papa' },
-  { client: 'IoT home Interface', title: '', image: '/images/Visual Design/iot.png', link: '/visual-design/iot' },
-  { client: 'Hot Ones', title: 'data visualisation', image: '/images/Visual Design/hot_ones.png', link: '/visual-design/hot-ones' },
-  { client: 'DrivR', title: 'luxury car rental app', image: '/images/Visual Design/drivr.png', link: '/visual-design/drivr' },
-  { client: 'Punk Anime', title: '', image: '/images/Visual Design/punk_anime.png', link: '/visual-design/punk-anime' }
+  { client: 'Bloomy', title: 'vegan restaurant', image: '/images/HomePage/bloomy.webp', link: '/visual-design/bloomy' },
+  { client: 'NotePad', title: 'period calendar', image: '/images/HomePage/notepad.webp', link: '/visual-design/notepad' },
+  { client: 'Mille Collines Simbisi Sweater', title: '', image: '/images/HomePage/simbsi.webp', link: '/visual-design/simbisi-sweater' },
+  { client: 'Mille Collines Tulia mugs', title: '', image: '/images/VisualDesign/tulia_mugs.webp', link: '/visual-design/tulia-mugs' },
+  { client: 'J.L PaPa', title: 'blade catalogue', image: '/images/HomePage/papa.webp', link: '/visual-design/papa' },
+  { client: 'IoT home Interface', title: '', image: '/images/VisualDesign/iot.png', link: '/visual-design/iot' },
+  { client: 'Hot Ones', title: 'data visualisation', image: '/images/VisualDesign/hot_ones.png', link: '/visual-design/hot-ones' },
+  { client: 'DrivR', title: 'luxury car rental app', image: '/images/VisualDesign/drivr.png', link: '/visual-design/drivr' },
+  { client: 'Punk Anime', title: '', image: '/images/VisualDesign/punk_anime.png', link: '/visual-design/punk-anime' }
 ];
 
 export const INTRO =
