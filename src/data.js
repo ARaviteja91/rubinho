@@ -3,10 +3,10 @@ export const workProjects = [
   { client: 'Davai', title: 'Low Budget Travel App', span: 6, ratio: '1/1', image: '/images/HomePage/2.gif', link: '/ux-case-studies/davai' },
   { client: 'Chirp', title: 'Audiovisual Weather App', span: 12, ratio: '21/9', image: '/images/HomePage/3.webp', link: '/ux-case-studies/chirp' },
   { client: 'Eklat', title: 'Fashion Brand', span: 6, start: 4, ratio: '16/9', image: '/images/HomePage/4.gif', link: '/ux-case-studies/eklat' },
-  { client: 'Notepad', title: 'NotePad 2019', span: 6, ratio: '1/1', image: '/images/HomePage/5.webp', link: '/visual-design/notepad' },
-  { client: 'Portrait', title: 'Editorial', span: 6, ratio: '4/5', image: '/images/HomePage/6.webp', link: '/visual-design/simbisi-sweater' },
-  { client: 'PAPA', title: '2020 2023', span: 6, ratio: '1/1', image: '/images/HomePage/7.webp', link: '/visual-design/papa' },
-  { client: 'Bloomy', title: 'Restaurant Dining', span: 6, ratio: '1/1', image: '/images/HomePage/8.webp', link: '/visual-design/bloomy' }
+  { client: 'Notepad', title: 'NotePad 2019', span: 6, ratio: '1/1', image: '/images/HomePage/notepad.webp', link: '/visual-design/notepad' },
+  { client: 'Portrait', title: 'Editorial', span: 6, ratio: '4/5', image: '/images/HomePage/simbsi.webp', link: '/visual-design/simbisi-sweater' },
+  { client: 'PAPA', title: '2020 2023', span: 6, ratio: '1/1', image: '/images/HomePage/papa.webp', link: '/visual-design/papa' },
+  { client: 'Bloomy', title: 'Restaurant Dining', span: 6, ratio: '1/1', image: '/images/HomePage/bloomy.webp', link: '/visual-design/bloomy' }
 ];
 
 export const uxProjects = [
