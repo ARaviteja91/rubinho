@@ -23,7 +23,7 @@ export default function NotePadVD() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ paddingBottom: '0px' }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">
@@ -37,17 +37,17 @@ export default function NotePadVD() {
             </p>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/notepad.png" alt="NotePad 2019 Silver Loerie Award cover" className="image-slot" />
+            <img src="/images/VisualDesign/6_NotePadCalendar/1.webp" alt="NotePad 2019 Silver Loerie Award cover" className="image-slot" />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Visual Design/6. Note Pad Calendar/1.webp" alt="Pattern artwork" className="image-slot" />
+          <img src="/images/VisualDesign/6_NotePadCalendar/2.gif" alt="Pattern artwork" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Visual Design/6. Note Pad Calendar/2.gif" alt="Unfolded pad calendar animation" className="image-slot" />
+          <img src="/images/VisualDesign/6_NotePadCalendar/1.webp" alt="Unfolded pad calendar animation" className="image-slot" />
         </div>
       </div>
 
