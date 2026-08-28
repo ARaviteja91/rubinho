@@ -23,7 +23,7 @@ export default function SimbisiSweater() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">
@@ -37,21 +37,21 @@ export default function SimbisiSweater() {
             </p>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/sweater.png" alt="Two models wearing Simbisi Sweater" className="image-slot" />
+            <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/1.webp" alt="Two models wearing Simbisi Sweater" className="image-slot" />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Visual Design/4. Mille Collines Simbisi Sweater/1.webp" alt="Yellow printed sleeve detail" className="image-slot" />
+          <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/1.webp" alt="Yellow printed sleeve detail" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Visual Design/4. Mille Collines Simbisi Sweater/2.webp" alt="Black printed sleeve detail" className="image-slot" />
+          <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/2.webp" alt="Black printed sleeve detail" className="image-slot" />
         </div>
       </div>
 
-      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

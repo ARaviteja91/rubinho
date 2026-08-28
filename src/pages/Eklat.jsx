@@ -5,10 +5,10 @@ import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 const brainstormImages = [
-  '/images/Ux Case Studies/D_EKLAT/Brainstorming Process/1.webp',
-  '/images/Ux Case Studies/D_EKLAT/Brainstorming Process/2.webp',
-  '/images/Ux Case Studies/D_EKLAT/Brainstorming Process/3.webp',
-  '/images/Ux Case Studies/D_EKLAT/Brainstorming Process/4.webp'
+  '/images/UxCaseStudies/D_EKLAT/Brainstorming Process/1.webp',
+  '/images/UxCaseStudies/D_EKLAT/Brainstorming Process/2.webp',
+  '/images/UxCaseStudies/D_EKLAT/Brainstorming Process/3.webp',
+  '/images/UxCaseStudies/D_EKLAT/Brainstorming Process/4.webp'
 ];
 
 export default function Eklat() {
@@ -57,15 +57,15 @@ export default function Eklat() {
       </section>
 
       <div data-reveal className="case-single-img">
-        <img src="/images/Ux Case Studies/D_EKLAT/1.gif" alt="Eklat brand banner" className="image-slot" />
+        <img src="/images/UxCaseStudies/D_EKLAT/1.gif" alt="Eklat brand banner" className="image-slot" />
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/3.webp" alt="Mobile app profile screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/3.webp" alt="Mobile app profile screen" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/4.webp" alt="Editorial campaign photo" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/4.webp" alt="Editorial campaign photo" className="image-slot" />
         </div>
       </div>
 
@@ -77,7 +77,7 @@ export default function Eklat() {
       </section>
 
       <div data-reveal className="case-single-img-center">
-        <img src="/images/Ux Case Studies/D_EKLAT/8.webp" alt="Billboard poster in nature" className="image-slot" />
+        <img src="/images/UxCaseStudies/D_EKLAT/8.webp" alt="Billboard poster in nature" className="image-slot" />
       </div>
 
       <section data-reveal className="nia-section">
@@ -89,10 +89,10 @@ export default function Eklat() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/5.webp" alt="Editorial magazine spread left" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/5.webp" alt="Editorial magazine spread left" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/6.webp" alt="Editorial magazine spread right" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/6.webp" alt="Editorial magazine spread right" className="image-slot" />
         </div>
       </div>
 
@@ -106,19 +106,19 @@ export default function Eklat() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/9.webp" alt="Branding & stationery layout" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/9.webp" alt="Branding & stationery layout" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/10.gif" alt="Product grid mobile view" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/10.gif" alt="Product grid mobile view" className="image-slot" />
         </div>
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/7.gif" alt="Social media feed" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/7.gif" alt="Social media feed" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/D_EKLAT/2.gif" alt="Packaging & brand tag" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/2.gif" alt="Packaging & brand tag" className="image-slot" />
         </div>
       </div>
 

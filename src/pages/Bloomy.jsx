@@ -23,41 +23,49 @@ export default function Bloomy() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ paddingTop: '140px', paddingBottom: "3px" }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">
               Bloomy, <span style={{ color: 'var(--muted)' }}>vegan restaurant</span>
             </h1>
             <p className="nia-paragraph" style={{ marginTop: '24px' }}>
-              Bloomy is a vegan restaurant concept built around bold flavours, playful expression, and a contemporary
-              approach to plant-based dining. I developed the visual identity across key brand touch points, with a
-              primary focus on the website. The digital experience translates Bloomy’s minimal yet expressive art
-              direction into a clear, engaging, and cohesive online presence.
+              Bloomy is a vegan restaurant concept built around bold flavours, playful expression, and a contemporary approach to plant-based dining. I developed the visual identity across key brand touch points, with a primary focus on the website. The digital experience translates Bloomy’s minimal yet expressive art direction into a clear, engaging, and cohesive online presence.
             </p>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/5. bloomy, vegan restaurant/1.webp" alt="Bloomy restaurant storefront" className="image-slot" />
+            <img
+              src="/images/VisualDesign/5. bloomy, vegan restaurant/1.webp"
+              alt="Bloomy restaurant exterior facade"
+              className="image-slot"
+            />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Visual Design/bloomy.png" alt="Restaurant dining tables" className="image-slot" />
+          <img
+            src="/images/VisualDesign/5. bloomy, vegan restaurant/2.webp"
+            alt="Bloomy restaurant dining interior tables and wooden chairs"
+            className="image-slot"
+          />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Visual Design/5. bloomy, vegan restaurant/2.webp" alt="Bloomy app & menu cards" className="image-slot" />
+          <img
+            src="/images/VisualDesign/5. bloomy, vegan restaurant/3.webp"
+            alt="Bloomy visual identity business cards and mobile screens mockup"
+            className="image-slot"
+          />
         </div>
       </div>
 
-      <div data-reveal className="case-grid-2col">
-        <div className="case-img-tile">
-          <img src="/images/Visual Design/5. bloomy, vegan restaurant/3.webp" alt="Bloomy desktop web UI" className="image-slot" />
-        </div>
-        <div className="case-img-tile">
-          <img src="/images/Visual Design/5. bloomy, vegan restaurant/4.gif" alt="Bloomy mobile UI animation" className="image-slot" />
-        </div>
+      <div data-reveal className="case-single-img">
+        <img
+          src="/images/VisualDesign/5. bloomy, vegan restaurant/4.gif"
+          alt="Bloomy website mockup on laptop and mobile device"
+          className="image-slot"
+        />
       </div>
 
       <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>

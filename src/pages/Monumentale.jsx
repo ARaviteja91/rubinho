@@ -5,12 +5,12 @@ import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 const brainstormImages = [
-  '/images/Ux Case Studies/E_MONUMENTALE/Brainstorming Process/1.webp',
-  '/images/Ux Case Studies/E_MONUMENTALE/Brainstorming Process/2.webp',
-  '/images/Ux Case Studies/E_MONUMENTALE/Brainstorming Process/3.webp',
-  '/images/Ux Case Studies/E_MONUMENTALE/Brainstorming Process/4.webp',
-  '/images/Ux Case Studies/E_MONUMENTALE/Brainstorming Process/5.webp',
-  '/images/Ux Case Studies/E_MONUMENTALE/Brainstorming Process/6.webp'
+  '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/1.webp',
+  '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/2.webp',
+  '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/3.webp',
+  '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/4.webp',
+  '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/5.webp',
+  '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/6.webp'
 ];
 
 export default function Monumentale() {
@@ -59,15 +59,15 @@ export default function Monumentale() {
       </section>
 
       <div data-reveal className="case-single-img">
-        <img src="/images/Ux Case Studies/E_MONUMENTALE/0.webp" alt="Monumentale cover artwork" className="image-slot" />
+        <img src="/images/UxCaseStudies/E_MONUMENTALE/0.webp" alt="Monumentale cover artwork" className="image-slot" />
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/E_MONUMENTALE/1.webp" alt="Monumentale website layout" className="image-slot" />
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/1.webp" alt="Monumentale website layout" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/E_MONUMENTALE/2.webp" alt="Interactive monument map screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/2.webp" alt="Interactive monument map screen" className="image-slot" />
         </div>
       </div>
 
@@ -80,10 +80,10 @@ export default function Monumentale() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/E_MONUMENTALE/3.webp" alt="Monuments archive gallery" className="image-slot" />
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/3.webp" alt="Monuments archive gallery" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/E_MONUMENTALE/6.webp" alt="Mobile responsive layout" className="image-slot" />
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/6.webp" alt="Mobile responsive layout" className="image-slot" />
         </div>
       </div>
 
