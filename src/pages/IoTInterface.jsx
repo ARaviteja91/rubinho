@@ -23,7 +23,7 @@ export default function IoTInterface() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">IoT home interface</h1>
@@ -35,16 +35,16 @@ export default function IoTInterface() {
             </p>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/iot.png" alt="Smart home dashboard UI" className="image-slot" />
+            <img src="/images/VisualDesign/1_IoTInterface/1.webp" alt="Smart home dashboard UI" className="image-slot" />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-single-img">
-        <img src="/images/Visual Design/1. IoT Interface/1.webp" alt="iPad Pro smart home control mockup" className="image-slot" />
+        <img src="/images/VisualDesign/1_IoTInterface/2.webp" alt="iPad Pro smart home control mockup" className="image-slot" />
       </div>
 
-      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

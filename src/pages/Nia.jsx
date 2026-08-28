@@ -5,13 +5,13 @@ import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 const brainstormImages = [
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/1.webp',
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/2.webp',
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/3.webp',
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/4.webp',
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/5.webp',
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/6.webp',
-  '/images/Ux Case Studies/A _NIA/Brainstorming Process/7.webp'
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/1.webp',
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/2.webp',
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/3.webp',
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/4.webp',
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/5.webp',
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/6.webp',
+  '/images/UxCaseStudies/A _NIA/Brainstorming Process/7.webp'
 ];
 
 export default function Nia() {
@@ -62,10 +62,10 @@ export default function Nia() {
 
       <div data-reveal className="nia-offset-images">
         <div className="nia-phone-img-wrapper">
-          <img src="/images/Ux Case Studies/A _NIA/2.webp" alt="Phone in hand showing Nia app" className="image-slot" />
+          <img src="/images/UxCaseStudies/A _NIA/2.webp" alt="Phone in hand showing Nia app" className="image-slot" />
         </div>
         <div className="nia-landscape-img-wrapper">
-          <img src="/images/Ux Case Studies/A _NIA/1.webp" alt="Landscape with Nia logo overlay" className="image-slot" />
+          <img src="/images/UxCaseStudies/A _NIA/1.webp" alt="Landscape with Nia logo overlay" className="image-slot" />
         </div>
       </div>
 
@@ -80,17 +80,17 @@ export default function Nia() {
 
       <div data-reveal className="nia-gallery-block">
         <div className="nia-billboard-wrapper">
-          <img src="/images/Ux Case Studies/A _NIA/4.webp" alt="Billboard: The Internet is Far, Nia is Here" className="image-slot" />
+          <img src="/images/UxCaseStudies/A _NIA/4.webp" alt="Billboard: The Internet is Far, Nia is Here" className="image-slot" />
         </div>
         <div className="nia-pavilion-wrapper">
-          <img src="/images/Ux Case Studies/A _NIA/3.webp" alt="Solar-powered community pavilion" className="image-slot" />
+          <img src="/images/UxCaseStudies/A _NIA/3.webp" alt="Solar-powered community pavilion" className="image-slot" />
         </div>
         <div className="rm-gallery-row">
           <div className="nia-voice-img-wrapper">
-            <img src="/images/Ux Case Studies/A _NIA/5.webp" alt="Phone showing Nia voice interface" className="image-slot" />
+            <img src="/images/UxCaseStudies/A _NIA/5.webp" alt="Phone showing Nia voice interface" className="image-slot" />
           </div>
           <div className="nia-charging-img-wrapper">
-            <img src="/images/Ux Case Studies/A _NIA/6.webp" alt="Community members using solar charging stations" className="image-slot" />
+            <img src="/images/UxCaseStudies/A _NIA/6.webp" alt="Community members using solar charging stations" className="image-slot" />
           </div>
         </div>
       </div>

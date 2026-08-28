@@ -5,11 +5,11 @@ import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 const brainstormImages = [
-  '/images/Ux Case Studies/B_DAVAI/Brainstorming Process/1.webp',
-  '/images/Ux Case Studies/B_DAVAI/Brainstorming Process/2.webp',
-  '/images/Ux Case Studies/B_DAVAI/Brainstorming Process/3.webp',
-  '/images/Ux Case Studies/B_DAVAI/Brainstorming Process/4.webp',
-  '/images/Ux Case Studies/B_DAVAI/Brainstorming Process/5.webp'
+  '/images/UxCaseStudies/B_DAVAI/Brainstorming Process/1.webp',
+  '/images/UxCaseStudies/B_DAVAI/Brainstorming Process/2.webp',
+  '/images/UxCaseStudies/B_DAVAI/Brainstorming Process/3.webp',
+  '/images/UxCaseStudies/B_DAVAI/Brainstorming Process/4.webp',
+  '/images/UxCaseStudies/B_DAVAI/Brainstorming Process/5.webp'
 ];
 
 export default function Davai() {
@@ -60,19 +60,19 @@ export default function Davai() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/B_DAVAI/1 Davai Cover.gif" alt="Davai cover animation" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/1 Davai Cover.gif" alt="Davai cover animation" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/B_DAVAI/2.webp" alt="Where is your mind UI" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/2.webp" alt="Where is your mind UI" className="image-slot" />
         </div>
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/B_DAVAI/4.gif" alt="Onboarding savings screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/4.gif" alt="Onboarding savings screen" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/B_DAVAI/3.webp" alt="Activity destinations grid" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/3.webp" alt="Activity destinations grid" className="image-slot" />
         </div>
       </div>
 
@@ -85,15 +85,15 @@ export default function Davai() {
       </section>
 
       <div data-reveal className="case-single-img-center">
-        <img src="/images/Ux Case Studies/B_DAVAI/5.gif" alt="Davai puzzle luggage logo" className="icon-center-img" />
+        <img src="/images/UxCaseStudies/B_DAVAI/5.gif" alt="Davai puzzle luggage logo" className="icon-center-img" />
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/B_DAVAI/6.webp" alt="Trip matching and profile details" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/6.webp" alt="Trip matching and profile details" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/B_DAVAI/7.gif" alt="Mobile home screen widget" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/7.gif" alt="Mobile home screen widget" className="image-slot" />
         </div>
       </div>
 

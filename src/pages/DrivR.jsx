@@ -23,7 +23,7 @@ export default function DrivR() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }} >
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">
@@ -37,16 +37,16 @@ export default function DrivR() {
             </p>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/drivr.png" alt="DrivR luxury car artwork" className="image-slot" />
+            <img src="/images/VisualDesign/8_DrivR/drivr.png" alt="DrivR luxury car artwork" className="image-slot" />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-single-img">
-        <img src="/images/Visual Design/8. DrivR, luxury car rental app/1.webp" alt="DrivR mobile splash screen mockup" className="image-slot" />
+        <img src="/images/VisualDesign/8_DrivR/drivR_1.png" alt="DrivR mobile splash screen mockup" className="image-slot" />
       </div>
 
-      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

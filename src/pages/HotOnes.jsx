@@ -23,7 +23,7 @@ export default function HotOnes() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">
@@ -40,30 +40,25 @@ export default function HotOnes() {
             </p>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/hot_ones.png" alt="Hot Ones graphic poster" className="image-slot" />
+            <img src="/images/VisualDesign/7_HotOnes/hot_ones.png" alt="Hot Ones graphic poster" className="image-slot" />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Visual Design/7. Hot Ones, data visualisation/1.webp" alt="Top 10 videos table data" className="image-slot" />
+          <img src="/images/VisualDesign/7_HotOnes/hotOnes_1.png" alt="Top 10 videos table data" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Visual Design/7. Hot Ones, data visualisation/2.webp" alt="Tags used in video description chart" className="image-slot" />
+          <img src="/images/VisualDesign/7_HotOnes/hotOnes_2.png" alt="Tags used in video description chart" className="image-slot" />
         </div>
       </div>
 
-      <div data-reveal className="case-grid-2col">
-        <div className="case-img-tile">
-          <img src="/images/Visual Design/7. Hot Ones, data visualisation/3.webp" alt="Celebrities featured in top videos infographic" className="image-slot" />
-        </div>
-        <div className="case-img-tile">
-          <img src="/images/Visual Design/7. Hot Ones, data visualisation/4.webp" alt="Scoville heat timeline chart" className="image-slot" />
-        </div>
+      <div className="case-img-tile">
+        <img src="/images/VisualDesign/7_HotOnes/hotOnes_3.png" alt="Celebrities featured in top videos infographic" className="image-slot" />
       </div>
 
-      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

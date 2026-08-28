@@ -23,37 +23,64 @@ export default function PunkAnime() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">Punk Anime</h1>
-            <div style={{ marginTop: '24px', fontSize: '1.25rem', color: 'var(--muted)', lineHeight: '1.8' }}>
-              <p>Shot by me @unfilteredstudio</p>
-              <p style={{ marginTop: '12px' }}>Directed/ styled by @alejandra.chuc</p>
-              <p style={{ marginTop: '12px' }}>Models @e_lez_ @cristinadeasischan</p>
-              <p style={{ marginTop: '12px' }}>MUA @o.dydymska</p>
+            <div style={{ marginTop: '32px', fontSize: 'clamp(20px, 3vw, 28px)', fontWeight: 300, lineHeight: 1.6 }}>
+              <p style={{ margin: 0 }}>
+                Shot by me <span style={{ color: 'var(--muted)' }}>@unfilteredstudio</span>
+              </p>
+              <p style={{ margin: '16px 0 0', color: 'var(--muted)' }}>
+                Directed/ styled by @alejandra.chuc
+              </p>
+              <p style={{ margin: '24px 0 0', color: 'var(--muted)' }}>
+                Models @e_lez_
+              </p>
+              <p style={{ margin: '4px 0 0', color: 'var(--muted)' }}>
+                @cristinadeasischan
+              </p>
+              <p style={{ margin: '24px 0 0', color: 'var(--muted)' }}>
+                MUA @o.dydymska
+              </p>
             </div>
           </div>
           <div className="case-img-tile">
-            <img src="/images/Visual Design/punk_anime.png" alt="Punk Anime photoshoot header" className="image-slot" />
+            <img
+              src="/images/VisualDesign/9_PunkAnime/punk_anime.png"
+              alt="Punk Anime photoshoot header"
+              className="image-slot"
+            />
           </div>
         </div>
       </section>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Visual Design/9. Punk Anime/1.webp" alt="Punk Anime photoshoot frame 1" className="image-slot" />
+          <img
+            src="/images/VisualDesign/9_PunkAnime/pka_1.png"
+            alt="Punk Anime photoshoot frame 1"
+            className="image-slot"
+          />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Visual Design/9. Punk Anime/2.webp" alt="Punk Anime photoshoot frame 2" className="image-slot" />
+          <img
+            src="/images/VisualDesign/9_PunkAnime/pka_2.png"
+            alt="Punk Anime photoshoot frame 2"
+            className="image-slot"
+          />
         </div>
       </div>
 
       <div data-reveal className="case-single-img">
-        <img src="/images/Visual Design/9. Punk Anime/3.webp" alt="Punk Anime photoshoot sofa wide shot" className="image-slot" />
+        <img
+          src="/images/VisualDesign/9_PunkAnime/pka_3.png"
+          alt="Punk Anime photoshoot sofa wide shot"
+          className="image-slot"
+        />
       </div>
 
-      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

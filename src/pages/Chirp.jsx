@@ -5,10 +5,10 @@ import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 const brainstormImages = [
-  '/images/Ux Case Studies/C_CHIRP/Brainstorming Process/1.webp',
-  '/images/Ux Case Studies/C_CHIRP/Brainstorming Process/2.webp',
-  '/images/Ux Case Studies/C_CHIRP/Brainstorming Process/3.webp',
-  '/images/Ux Case Studies/C_CHIRP/Brainstorming Process/4.webp'
+  '/images/UxCaseStudies/C_CHIRP/Brainstorming Process/1.webp',
+  '/images/UxCaseStudies/C_CHIRP/Brainstorming Process/2.webp',
+  '/images/UxCaseStudies/C_CHIRP/Brainstorming Process/3.webp',
+  '/images/UxCaseStudies/C_CHIRP/Brainstorming Process/4.webp'
 ];
 
 export default function Chirp() {
@@ -58,10 +58,10 @@ export default function Chirp() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/C_CHIRP/1.webp" alt="Chirp brand cover" className="image-slot" />
+          <img src="/images/UxCaseStudies/C_CHIRP/1.webp" alt="Chirp brand cover" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/C_CHIRP/2.webp" alt="Sound catalog mobile screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/C_CHIRP/2.webp" alt="Sound catalog mobile screen" className="image-slot" />
         </div>
       </div>
 
@@ -75,10 +75,10 @@ export default function Chirp() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/C_CHIRP/3.gif" alt="12 hour forecast screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/C_CHIRP/3.gif" alt="12 hour forecast screen" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/C_CHIRP/4.webp" alt="24 hour forecast screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/C_CHIRP/4.webp" alt="24 hour forecast screen" className="image-slot" />
         </div>
       </div>
 
@@ -93,7 +93,7 @@ export default function Chirp() {
 
       <div data-reveal className="case-grid-half">
         <div className="case-img-tile">
-          <img src="/images/Ux Case Studies/C_CHIRP/6.webp" alt="Weekly forecast screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/C_CHIRP/6.webp" alt="Weekly forecast screen" className="image-slot" />
         </div>
       </div>
 
