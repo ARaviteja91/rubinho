@@ -89,7 +89,7 @@ export default function NiaCaseStudy() {
         <div className="nia-pavilion-wrapper">
           <img src="/assets/nia-pavilion.png" alt="Solar-powered community pavilion" className="image-slot" />
         </div>
-        <div className="rm-gallery-row" style={{ width: 1184, height: 773 }}>
+        <div className="rm-gallery-row">
           <div className="nia-voice-img-wrapper">
             <img src="/assets/nia-voice.png" alt="Phone showing Nia voice interface" className="image-slot" />
           </div>
