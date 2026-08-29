@@ -133,6 +133,13 @@ export default function NiaCaseStudy() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hoveredP?.image && (
+          <img
+            src={hoveredP.image}
+            alt={hoveredP ? hoveredP.label : ''}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{hoveredP ? hoveredP.label : ''}</span>
       </div>
     </div>

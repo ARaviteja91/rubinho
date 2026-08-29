@@ -78,6 +78,13 @@ export default function NotePadVD() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hovered != null && visualProjects[hovered]?.image && (
+          <img
+            src={visualProjects[hovered].image}
+            alt={label}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{label}</span>
       </div>
     </div>

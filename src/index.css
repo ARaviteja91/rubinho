@@ -724,6 +724,24 @@ a:not([data-tile]):hover {
   background-image: repeating-linear-gradient(135deg, var(--stripe) 0 1px, transparent 1px 9px);
   display: flex;
   align-items: flex-end;
+  overflow: hidden;
+}
+
+.floating-preview-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.floating-preview .image-placeholder-label {
+  position: relative;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  width: 100%;
+  backdrop-filter: blur(4px);
 }
 
 /* Info page specific styles */

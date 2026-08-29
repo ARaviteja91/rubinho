@@ -44,10 +44,10 @@ export default function SimbisiSweater() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/1.webp" alt="Yellow printed sleeve detail" className="image-slot" />
+          <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/2.webp" alt="Yellow printed sleeve detail" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/2.webp" alt="Black printed sleeve detail" className="image-slot" />
+          <img src="/images/VisualDesign/4_MilleCollinesSimbisiSweater/3.webp" alt="Black printed sleeve detail" className="image-slot" />
         </div>
       </div>
 
@@ -78,6 +78,13 @@ export default function SimbisiSweater() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hovered != null && visualProjects[hovered]?.image && (
+          <img
+            src={visualProjects[hovered].image}
+            alt={label}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{label}</span>
       </div>
     </div>

@@ -67,6 +67,13 @@ export default function Beeswax() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hovered != null && workProjects[hovered]?.image && (
+          <img
+            src={workProjects[hovered].image}
+            alt={label}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{label}</span>
       </div>
     </div>
