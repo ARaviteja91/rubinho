@@ -123,6 +123,13 @@ export default function Monumentale() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hovered != null && uxProjects[hovered]?.image && (
+          <img
+            src={uxProjects[hovered].image}
+            alt={label}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{label}</span>
       </div>
     </div>

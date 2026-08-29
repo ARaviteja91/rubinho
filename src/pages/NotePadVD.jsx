@@ -47,7 +47,7 @@ export default function NotePadVD() {
           <img src="/images/VisualDesign/6_NotePadCalendar/2.gif" alt="Pattern artwork" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/VisualDesign/6_NotePadCalendar/1.webp" alt="Unfolded pad calendar animation" className="image-slot" />
+          <img src="/images/VisualDesign/6_NotePadCalendar/3.png" alt="Unfolded pad calendar animation" className="image-slot" />
         </div>
       </div>
 
@@ -78,6 +78,13 @@ export default function NotePadVD() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hovered != null && visualProjects[hovered]?.image && (
+          <img
+            src={visualProjects[hovered].image}
+            alt={label}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{label}</span>
       </div>
     </div>

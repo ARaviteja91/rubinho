@@ -89,7 +89,7 @@ export default function NiaCaseStudy() {
         <div className="nia-pavilion-wrapper">
           <img src="/assets/nia-pavilion.png" alt="Solar-powered community pavilion" className="image-slot" />
         </div>
-        <div className="rm-gallery-row" style={{ width: 1184, height: 773 }}>
+        <div className="rm-gallery-row">
           <div className="nia-voice-img-wrapper">
             <img src="/assets/nia-voice.png" alt="Phone showing Nia voice interface" className="image-slot" />
           </div>
@@ -133,6 +133,13 @@ export default function NiaCaseStudy() {
           transform: 'translate(-9999px,-9999px)'
         }}
       >
+        {hoveredP?.image && (
+          <img
+            src={hoveredP.image}
+            alt={hoveredP ? hoveredP.label : ''}
+            className="floating-preview-image"
+          />
+        )}
         <span className="image-placeholder-label">{hoveredP ? hoveredP.label : ''}</span>
       </div>
     </div>
