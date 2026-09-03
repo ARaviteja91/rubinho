@@ -36,8 +36,8 @@ export default function VisualDesign() {
               onMouseEnter={() => setHovered(0)}
               className="grid-item"
             >
-              <div className="grid-tile" style={{ aspectRatio: '1/1' }}>
-                <img src={visualProjects[0].image} alt="Bloomy" className="grid-image" />
+              <div className="grid-tile">
+                <img src={visualProjects[0].image} alt="Bloomy" className="grid-image" style={{ aspectRatio: '1/1' }} />
               </div>
             </FadeLink>
             <FadeLink
@@ -121,8 +121,8 @@ export default function VisualDesign() {
               onMouseEnter={() => setHovered(5)}
               className="grid-item"
             >
-              <div className="grid-tile" style={{ aspectRatio: '16/9' }}>
-                <img src={visualProjects[5].image} alt="IoT Interface" className="grid-image" />
+              <div className="grid-tile">
+                <img src={visualProjects[5].image} alt="IoT Interface" className="grid-image" style={{ aspectRatio: '4/3' }} />
               </div>
             </FadeLink>
             <FadeLink

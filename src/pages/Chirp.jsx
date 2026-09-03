@@ -91,9 +91,9 @@ export default function Chirp() {
         </p>
       </section>
 
-      <div data-reveal className="case-grid-half">
+      <div data-reveal className="case-single-img">
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/C_CHIRP/6.webp" alt="Weekly forecast screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/C_CHIRP/6.webp" alt="Weekly forecast screen" className="image-slot" style={{ width: '70%' }} />
         </div>
       </div>
 
