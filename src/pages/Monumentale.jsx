@@ -94,7 +94,15 @@ export default function Monumentale() {
       </section>
 
       <div className="nia-video-feature">
-        <div className="video-placeholder">VIDEO</div>
+        <div className="nia-video-container">
+          <iframe
+            src="https://www.youtube.com/embed/TmlJ9SkmqXc?si=_0PLxaEgE8Kt_P4z"
+            title="Monumentale YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>

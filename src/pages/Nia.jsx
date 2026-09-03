@@ -104,7 +104,15 @@ export default function Nia() {
       </section>
 
       <div className="nia-video-feature">
-        <div className="video-placeholder">VIDEO</div>
+        <div className="nia-video-container">
+          <iframe
+            src="https://www.youtube.com/embed/0S_urQD-YAI?si=gJdAyPON8F4zNbMV"
+            title="Nia YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>

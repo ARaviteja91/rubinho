@@ -109,7 +109,15 @@ export default function Davai() {
       </section>
 
       <div className="nia-video-feature">
-        <div className="video-placeholder">VIDEO</div>
+        <div className="nia-video-container">
+          <iframe
+            src="https://www.youtube.com/embed/KPPD-yG5c6s?si=vseDzIg2yUyaNIbS"
+            title="Davai YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>

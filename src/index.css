@@ -788,14 +788,25 @@ a:not([data-tile]):hover {
 }
 
 .nia-video-feature {
-  padding: 10px;
+  padding: 0 24px;
   box-sizing: border-box;
   margin: 0 0 80px;
+  width: 100%;
 }
 
+.nia-video-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.nia-video-container iframe,
 .nia-video-feature iframe {
   width: 100%;
-  aspect-ratio: 16/9;
+  height: 100%;
+  aspect-ratio: 16 / 9;
   border: none;
   display: block;
 }
@@ -810,7 +821,7 @@ a:not([data-tile]):hover {
 
 .nia-index-section {
   /* border-top: 1px solid var(--rule); */
-  padding: 10px 10px;
+  padding: 10px 25px;
 }
 
 .nia-index-heading {

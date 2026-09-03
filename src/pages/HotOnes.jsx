@@ -58,7 +58,7 @@ export default function HotOnes() {
         <img src="/images/VisualDesign/7_HotOnes/hotOnes_3.png" alt="Celebrities featured in top videos infographic" className="image-slot" />
       </div>
 
-      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

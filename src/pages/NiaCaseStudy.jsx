@@ -105,7 +105,15 @@ export default function NiaCaseStudy() {
 
       {/* Video feature */}
       <div className="nia-video-feature">
-        <span className="nia-video-label">Video</span>
+        <div className="nia-video-container">
+          <iframe
+            src="https://www.youtube.com/embed/0S_urQD-YAI?si=gJdAyPON8F4zNbMV"
+            title="Nia Case Study YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+            allowFullScreen
+          />
+        </div>
       </div>
 
       {/* Index */}
