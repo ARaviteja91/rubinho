@@ -44,7 +44,7 @@ export default function IoTInterface() {
         <img src="/images/VisualDesign/1_IoTInterface/2.webp" alt="iPad Pro smart home control mockup" className="image-slot" />
       </div>
 
-      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (

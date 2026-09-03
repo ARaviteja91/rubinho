@@ -46,7 +46,7 @@ export default function TuliaMugs() {
         <img src="/images/VisualDesign/3_MilleCollinesMugs/2.webp" alt="Group of handcrafted Tulia mugs" className="image-slot" />
       </div>
 
-      <section id="index" className="nia-index-section" style={{ padding: '0' }} onMouseLeave={() => setHovered(null)}>
+      <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
         <h2 className="vd-index-heading">Index</h2>
         <ul className="nia-index-list">
           {visualProjects.map((p, i) => (
