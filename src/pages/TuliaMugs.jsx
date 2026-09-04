@@ -25,7 +25,7 @@ export default function TuliaMugs() {
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
-          <div>
+          <div className="case-img-tile" >
             <h1 className="nia-title">
               Mille Collines, <span style={{ color: 'var(--muted)' }}>Tulia mugs</span>
             </h1>
