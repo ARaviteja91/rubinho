@@ -25,7 +25,7 @@ export default function NotePadVD() {
 
       <section data-reveal className="nia-section" style={{ paddingBottom: '0px' }}>
         <div className="case-grid-2col">
-          <div>
+          <div className="case-img-tile" >
             <h1 className="nia-title">
               NotePad, <span style={{ color: 'var(--muted)' }}>period calendar</span>
             </h1>

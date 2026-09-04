@@ -56,16 +56,16 @@ export default function Eklat() {
         </p>
       </section>
 
-      <div data-reveal className="case-single-img">
+      <div data-reveal className="case-single-img" style={{ padding: '16px 28px' }}>
         <img src="/images/UxCaseStudies/D_EKLAT/1.gif" alt="Eklat brand banner" className="image-slot" />
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/D_EKLAT/3.webp" alt="Mobile app profile screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/2.gif" alt="Mobile app profile screen" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/D_EKLAT/4.webp" alt="Editorial campaign photo" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/3.webp" alt="Editorial campaign photo" className="image-slot" style={{ height: 'auto' }} />
         </div>
       </div>
 
@@ -77,7 +77,7 @@ export default function Eklat() {
       </section>
 
       <div data-reveal className="case-single-img-center">
-        <img src="/images/UxCaseStudies/D_EKLAT/8.webp" alt="Billboard poster in nature" className="image-slot" />
+        <img src="/images/UxCaseStudies/D_EKLAT/4.webp" alt="Billboard poster in nature" className="image-slot" style={{ width: '60%' }} />
       </div>
 
       <section data-reveal className="nia-section">

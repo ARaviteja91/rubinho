@@ -59,20 +59,20 @@ export default function Davai() {
       </section>
 
       <div data-reveal className="case-grid-2col">
-        <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/B_DAVAI/1 Davai Cover.gif" alt="Davai cover animation" className="image-slot" />
+        <div className="case-img-tile"  >
+          <img src="/images/UxCaseStudies/B_DAVAI/1 Davai Cover.gif" alt="Davai cover animation" className="image-slot" style={{ height: 'auto' }} />
         </div>
-        <div className="case-img-tile">
+        <div className="case-img-tile" style={{ gridColumn: '2/span 3' }}>
           <img src="/images/UxCaseStudies/B_DAVAI/2.webp" alt="Where is your mind UI" className="image-slot" />
         </div>
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/B_DAVAI/4.gif" alt="Onboarding savings screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/3.gif" alt="Onboarding savings screen" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/B_DAVAI/3.webp" alt="Activity destinations grid" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/4.webp" alt="Activity destinations grid" className="image-slot" />
         </div>
       </div>
 
@@ -84,13 +84,13 @@ export default function Davai() {
         </p>
       </section>
 
-      <div data-reveal className="case-single-img-center">
-        <img src="/images/UxCaseStudies/B_DAVAI/5.gif" alt="Davai puzzle luggage logo" className="icon-center-img" />
+      <div data-reveal className="case-single-img-center" style={{ justifyContent: 'start', alignItems: 'center' }} >
+        <img src="/images/UxCaseStudies/B_DAVAI/5.gif" alt="Davai puzzle luggage logo" className="" />
       </div>
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/B_DAVAI/6.webp" alt="Trip matching and profile details" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/6.webp" alt="Trip matching and profile details" className="image-slot" style={{ height: 'auto' }} />
         </div>
         <div className="case-img-tile">
           <img src="/images/UxCaseStudies/B_DAVAI/7.gif" alt="Mobile home screen widget" className="image-slot" />

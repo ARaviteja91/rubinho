@@ -25,7 +25,7 @@ export default function JLPaPa() {
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
-          <div>
+          <div className="case-img-tile" >
             <h1 className="nia-title">
               J.L PaPa, <span style={{ color: 'var(--muted)' }}>blade catalogue</span>
             </h1>

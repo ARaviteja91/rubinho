@@ -54,7 +54,7 @@ export default function Landing() {
               <ImageSlot label={label} className="full-size" />
             </div>
             ))} */}
-          <img src="/images/HomePage/1.webp" alt="" className="landing-cover" />
+          <img src="/images/landing_image.png" alt="" className="landing-cover" />
 
         </div>
       </div>
