@@ -1,7 +1,7 @@
 export const workProjects = [
   { client: 'Nia', title: 'AI for the Global South', span: 6, ratio: '1/1', image: '/images/HomePage/1.webp', link: '/ux-case-studies/nia' },
   { client: 'Davai', title: 'Low Budget Travel App', span: 6, ratio: '1/1', image: '/images/HomePage/2.gif', link: '/ux-case-studies/davai' },
-  { client: 'Chirp', title: 'Audiovisual Weather App', span: 12, ratio: '21/9', image: '/images/HomePage/3.webp', link: '/ux-case-studies/chirp' },
+  { client: 'Chirp', title: 'Audiovisual Weather App', span: 12, ratio: '', image: '/images/HomePage/3.webp', link: '/ux-case-studies/chirp' },
   { client: 'Eklat', title: 'Fashion Brand', span: 6, start: 4, ratio: '16/9', image: '/images/HomePage/4.gif', link: '/ux-case-studies/eklat' },
   { client: 'Notepad', title: 'NotePad 2019', span: 6, ratio: '1/1', image: '/images/HomePage/notepad.webp', link: '/visual-design/notepad' },
   { client: 'Portrait', title: 'Editorial', span: 6, ratio: '4/5', image: '/images/HomePage/simbsi.webp', link: '/visual-design/simbisi-sweater' },
@@ -12,7 +12,7 @@ export const workProjects = [
 export const uxProjects = [
   { client: 'Nia', title: 'AI for the Global South', span: 6, ratio: '1/1', image: '/images/HomePage/1.webp', link: '/ux-case-studies/nia' },
   { client: 'Davai', title: 'Low Budget Travel App', span: 6, ratio: '1/1', image: '/images/HomePage/2.gif', link: '/ux-case-studies/davai' },
-  { client: 'Chirp', title: 'Audiovisual Weather App', span: 12, ratio: '21/9', image: '/images/HomePage/3.webp', link: '/ux-case-studies/chirp' },
+  { client: 'Chirp', title: 'Audiovisual Weather App', span: 12, ratio: '', image: '/images/HomePage/3.webp', link: '/ux-case-studies/chirp' },
   { client: 'Eklat', title: 'Fashion Brand', span: 6, ratio: '1/1', image: '/images/HomePage/4.gif', link: '/ux-case-studies/eklat' },
   { client: 'Monumentale', title: 'Website Redesign', span: 6, ratio: '4/5', image: '/images/UxCaseStudies/E_MONUMENTALE/0.webp', link: '/ux-case-studies/monumentale' }
 ];

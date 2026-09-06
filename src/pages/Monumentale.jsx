@@ -59,37 +59,59 @@ export default function Monumentale() {
       </section>
 
       <div data-reveal className="case-single-img">
-        <img src="/images/UxCaseStudies/E_MONUMENTALE/0.webp" alt="Monumentale cover artwork" className="image-slot" />
+        <img src="/images/UxCaseStudies/E_MONUMENTALE/1.webp" alt="Monumentale cover artwork" className="image-slot" />
       </div>
 
-      <div data-reveal className="case-grid-2col">
-        <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/1.webp" alt="Monumentale website layout" className="image-slot" />
+      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '25% 50% 25%',gap:0 }} >
+        <div className="case-img-tile" style={{ gridColumn: '2/3' }} >
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/2.gif" alt="Monumentale website layout" className="image-slot" style={{padding:'0 10px'}} />
         </div>
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/2.webp" alt="Interactive monument map screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/3.webp" alt="Interactive monument map screen" className="image-slot" style={{ height: 'auto' }} />
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: ' 80px 24px' }} >
         <p className="nia-paragraph">
-          The project combined archival research, visitor journey mapping, and visual identity refinement. Key focus areas included creating
-          clear self-guided tour paths, implementing responsive artwork search filters, and honoring the solemn, artistic legacy of the site.
+          The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for
+          smaller screens.
         </p>
       </section>
+       
 
-      <div data-reveal className="case-grid-2col">
-        <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/3.webp" alt="Monuments archive gallery" className="image-slot" />
+      <div data-reveal className="case-grid-2col" style={{gridTemplateColumns:'20% 50% 25%',gap:0}} >
+        <div className="case-img-tile" style={{gridColumn:2}}>
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/5.gif" alt="Monuments archive gallery" className="image-slot" />
         </div>
-        <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/6.webp" alt="Mobile responsive layout" className="image-slot" />
+        <div className="case-img-tile" style={{gridColumn:1}}>
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" />
+        </div>
+      </div>
+      
+      <div data-reveal className="case-grid-2col" >
+        <div className="case-img-tile" >
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/6.webp" alt="Monuments archive gallery" className="image-slot"    />
+        </div>
+        <div className="case-img-tile" >
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/7.webp" alt="Mobile responsive layout" className="image-slot" style={{height:'auto'}} />
+        </div>
+      </div>
+      
+      <div data-reveal className="case-grid-2col" style={{gridTemplateColumns:'auto auto auto'}}  >
+        <div className="case-img-tile" >
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/8.gif" alt="Monuments archive gallery" className="image-slot" />
+        </div>
+        <div className="case-img-tile" >
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/9.gif" alt="Mobile responsive layout" className="image-slot" style={{height:'auto'}} />
+        </div>
+        <div className="case-img-tile" >
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/10.gif" alt="Mobile responsive layout" className="image-slot" style={{height:'auto'}} />
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{padding:'80px 24px'}} >
         <p className="nia-paragraph">
-          The final concept presents a seamless digital cultural platform, bridging physical exploration with online historical depth.
+          The final concept, “Discovering Secrets Beneath the Facade,” transforms the website into a digital companion for exploring the cemetery's architecture, monuments, and hidden histories. The mobile experience incorporates an augmented reality feature that reveals additional stories and contextual information around selected monuments, creating a more immersive tour while helping the Monumentale reach a broader audience and extend the experience beyond the physical site.
         </p>
       </section>
 

@@ -69,22 +69,22 @@ export default function Davai() {
 
       <div data-reveal className="case-grid-2col">
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/B_DAVAI/3.gif" alt="Onboarding savings screen" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/3.webp" alt="Onboarding savings screen" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/B_DAVAI/4.webp" alt="Activity destinations grid" className="image-slot" />
+          <img src="/images/UxCaseStudies/B_DAVAI/4.gif" alt="Activity destinations grid" className="image-slot" />
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{ padding: '0px 24px 0px' }} >
         <p className="nia-paragraph">
-          The project combined primary and secondary research, empathy mapping, user interviews, competitive analysis, prototyping,
+          The project combined primary and secondary reseasrch, empathy mapping, user interviews, competitive analysis, prototyping,
           and usability testing. Key findings revealed the importance of compatibility, safety, financial transparency, simplified
           planning tools, and greater user control when arranging trips and connecting with new travel companions.
         </p>
       </section>
 
-      <div data-reveal className="case-single-img-center" style={{ justifyContent: 'start', alignItems: 'center' }} >
+      <div data-reveal className="case-single-img-center" style={{ justifyContent: 'start', alignItems: 'center', paddingBottom: '0px' }} >
         <img src="/images/UxCaseStudies/B_DAVAI/5.gif" alt="Davai puzzle luggage logo" className="" />
       </div>
 
