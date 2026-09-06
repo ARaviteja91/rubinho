@@ -42,7 +42,7 @@ export default function TuliaMugs() {
         </div>
       </section>
 
-      <div data-reveal className="case-single-img">
+      <div data-reveal className="case-single-img" style={{padding:'10px'}}>
         <img src="/images/VisualDesign/3_MilleCollinesMugs/2.webp" alt="Group of handcrafted Tulia mugs" className="image-slot" />
       </div>
 

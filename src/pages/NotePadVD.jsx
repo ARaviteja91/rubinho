@@ -23,7 +23,7 @@ export default function NotePadVD() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section" style={{ paddingBottom: '0px' }}>
+      <section data-reveal className="nia-section" style={{ padding: '140px 0px 5px 0px' }}>
         <div className="case-grid-2col">
           <div className="case-img-tile" >
             <h1 className="nia-title">

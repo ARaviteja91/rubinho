@@ -23,7 +23,7 @@ export default function HotOnes() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0' }}>
         <div className="case-grid-2col">
           <div className="case-img-tile" >
             <h1 className="nia-title">
@@ -54,7 +54,7 @@ export default function HotOnes() {
         </div>
       </div>
 
-      <div className="case-img-tile">
+      <div className="case-img-tile" style={{padding:'10px'}}>
         <img src="/images/VisualDesign/7_HotOnes/hotOnes_3.png" alt="Celebrities featured in top videos infographic" className="image-slot" />
       </div>
 
