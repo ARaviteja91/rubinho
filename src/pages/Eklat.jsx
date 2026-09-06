@@ -104,21 +104,21 @@ export default function Eklat() {
         </p>
       </section>
 
-      <div data-reveal className="case-grid-2col">
+      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '70% 30%' }} >
         <div className="case-img-tile">
           <img src="/images/UxCaseStudies/D_EKLAT/9.webp" alt="Branding & stationery layout" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/D_EKLAT/10.gif" alt="Product grid mobile view" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/10.gif" alt="Product grid mobile view" className="image-slot" style={{ height: 'auto' }} />
         </div>
       </div>
 
-      <div data-reveal className="case-grid-2col">
-        <div className="case-img-tile">
+      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '25% 50% 25%' }} >
+        <div className="case-img-tile" style={{ gridColumn: '2/3' }}>
           <img src="/images/UxCaseStudies/D_EKLAT/7.gif" alt="Social media feed" className="image-slot" />
         </div>
-        <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/D_EKLAT/2.gif" alt="Packaging & brand tag" className="image-slot" />
+        <div className="case-img-tile" style={{ gridColumn: '3' }} >
+          <img src="/images/UxCaseStudies/D_EKLAT/8.webp" alt="Packaging & brand tag" className="image-slot" style={{ height: 'auto' }} />
         </div>
       </div>
 
