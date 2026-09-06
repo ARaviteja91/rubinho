@@ -42,7 +42,7 @@ export default function DrivR() {
         </div>
       </section>
 
-      <div data-reveal className="case-single-img">
+      <div data-reveal className="case-single-img" style={{padding:'10px'}} >
         <img src="/images/VisualDesign/8_DrivR/drivR_1.png" alt="DrivR mobile splash screen mockup" className="image-slot" />
       </div>
 
