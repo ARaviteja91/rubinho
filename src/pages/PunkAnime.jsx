@@ -24,7 +24,7 @@ export default function PunkAnime() {
       <Header active="visual" hoverLabel={label} />
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
-        <div className="case-grid-2col" style={{ gridTemplateColumns: '50% 50%' }}>
+        <div className="case-grid-2col" style={{ gridTemplateColumns: '1fr 1fr' }}>
           <div className="case-img-tile" >
             <h1 className="nia-title">Punk Anime</h1>
             <div style={{ marginTop: '32px', fontSize: 'clamp(20px, 3vw, 28px)', fontWeight: 300, lineHeight: 1.6 }}>
