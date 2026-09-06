@@ -40,7 +40,7 @@ export default function IoTInterface() {
         </div>
       </section>
 
-      <div data-reveal className="case-single-img">
+      <div data-reveal className="case-single-img" style={{padding:'10px'}} >
         <img src="/images/VisualDesign/1_IoTInterface/2.webp" alt="iPad Pro smart home control mockup" className="image-slot" />
       </div>
 
