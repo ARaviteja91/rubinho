@@ -54,7 +54,7 @@ export default function HotOnes() {
         </div>
       </div>
 
-      <div className="case-img-tile">
+      <div data-reveal className="case-single-img">
         <img src="/images/VisualDesign/7_HotOnes/hotOnes_3.png" alt="Celebrities featured in top videos infographic" className="image-slot" />
       </div>
 
