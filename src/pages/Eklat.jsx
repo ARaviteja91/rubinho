@@ -113,9 +113,9 @@ export default function Eklat() {
         </div>
       </div>
 
-      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '25% 50% 25%',gap:'10px' }} >
+      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '25% 50% 25%',gap:'0px' }} >
         <div className="case-img-tile" style={{ gridColumn: '2/3' }}>
-          <img src="/images/UxCaseStudies/D_EKLAT/7.gif" alt="Social media feed" className="image-slot" />
+          <img src="/images/UxCaseStudies/D_EKLAT/7.gif" alt="Social media feed" className="image-slot" style={{paddingRight:'10px'}} />
         </div>
         <div className="case-img-tile" style={{ gridColumn: '3' }} >
           <img src="/images/UxCaseStudies/D_EKLAT/8.webp" alt="Packaging & brand tag" className="image-slot" style={{ height: 'auto' }} />
