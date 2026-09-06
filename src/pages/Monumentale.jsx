@@ -58,7 +58,7 @@ export default function Monumentale() {
         </p>
       </section>
 
-      <div data-reveal className="case-single-img">
+      <div data-reveal className="case-single-img" style={{padding:'0 10px 10px'}}>
         <img src="/images/UxCaseStudies/E_MONUMENTALE/1.webp" alt="Monumentale cover artwork" className="image-slot" />
       </div>
 
@@ -66,7 +66,7 @@ export default function Monumentale() {
         <div className="case-img-tile" style={{ gridColumn: '2/3' }} >
           <img src="/images/UxCaseStudies/E_MONUMENTALE/2.gif" alt="Monumentale website layout" className="image-slot" style={{padding:'0 10px'}} />
         </div>
-        <div className="case-img-tile">
+        <div className="case-img-tile"  >
           <img src="/images/UxCaseStudies/E_MONUMENTALE/3.webp" alt="Interactive monument map screen" className="image-slot" style={{ height: 'auto' }} />
         </div>
       </div>
@@ -80,11 +80,11 @@ export default function Monumentale() {
        
 
       <div data-reveal className="case-grid-2col" style={{gridTemplateColumns:'20% 50% 25%',gap:0}} >
-        <div className="case-img-tile" style={{gridColumn:2}}>
+        <div className="case-img-tile" style={{gridColumn:'2'}}>
           <img src="/images/UxCaseStudies/E_MONUMENTALE/5.gif" alt="Monuments archive gallery" className="image-slot" />
         </div>
-        <div className="case-img-tile" style={{gridColumn:1/3}}>
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" style={{paddingTop:'16px',width:'40%'}} />
+        <div className="case-img-tile" style={{gridColumn:'1 / 3'}}>
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" style={{paddingTop:'10px',width:'40%'}} />
         </div>
       </div>
       
