@@ -83,8 +83,8 @@ export default function Monumentale() {
         <div className="case-img-tile" style={{gridColumn:2}}>
           <img src="/images/UxCaseStudies/E_MONUMENTALE/5.gif" alt="Monuments archive gallery" className="image-slot" />
         </div>
-        <div className="case-img-tile" style={{gridColumn:1}}>
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" />
+        <div className="case-img-tile" style={{gridColumn:1/3}}>
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" style={{paddingTop:'16px',width:'40%'}} />
         </div>
       </div>
       

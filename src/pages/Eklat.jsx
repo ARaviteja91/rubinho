@@ -56,11 +56,11 @@ export default function Eklat() {
         </p>
       </section>
 
-      <div data-reveal className="case-single-img" style={{ padding: '16px 28px' }}>
+      <div data-reveal className="case-single-img" style={{ padding: '5px 10px' }}>
         <img src="/images/UxCaseStudies/D_EKLAT/1.gif" alt="Eklat brand banner" className="image-slot" />
       </div>
 
-      <div data-reveal className="case-grid-2col">
+      <div data-reveal className="case-grid-2col" style={{gap:'10px'}} >
         <div className="case-img-tile">
           <img src="/images/UxCaseStudies/D_EKLAT/2.gif" alt="Mobile app profile screen" className="image-slot" />
         </div>
@@ -87,7 +87,7 @@ export default function Eklat() {
         </p>
       </section>
 
-      <div data-reveal className="case-grid-2col">
+      <div data-reveal className="case-grid-2col" style={{gap:'10px'}}>
         <div className="case-img-tile">
           <img src="/images/UxCaseStudies/D_EKLAT/5.webp" alt="Editorial magazine spread left" className="image-slot" />
         </div>
@@ -104,7 +104,7 @@ export default function Eklat() {
         </p>
       </section>
 
-      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '70% 30%' }} >
+      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '70% 30%',gap:'10px' }} >
         <div className="case-img-tile">
           <img src="/images/UxCaseStudies/D_EKLAT/9.webp" alt="Branding & stationery layout" className="image-slot" />
         </div>
@@ -113,7 +113,7 @@ export default function Eklat() {
         </div>
       </div>
 
-      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '25% 50% 25%' }} >
+      <div data-reveal className="case-grid-2col" style={{ gridTemplateColumns: '25% 50% 25%',gap:'10px' }} >
         <div className="case-img-tile" style={{ gridColumn: '2/3' }}>
           <img src="/images/UxCaseStudies/D_EKLAT/7.gif" alt="Social media feed" className="image-slot" />
         </div>

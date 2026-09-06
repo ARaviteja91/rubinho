@@ -23,7 +23,7 @@ export default function Bloomy() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section" style={{ paddingTop: '140px', paddingBottom: "3px" }}>
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0', }}>
         <div className="case-grid-2col">
           <div>
             <h1 className="nia-title">

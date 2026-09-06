@@ -23,8 +23,8 @@ export default function PunkAnime() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
-        <div className="case-grid-2col" style={{ gridTemplateColumns: '50% 50%' }}>
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0' }}>
+        <div className="case-grid-2col" style={{ gridTemplateColumns: '50% 50%',gap:0 }}>
           <div className="case-img-tile" >
             <h1 className="nia-title">Punk Anime</h1>
             <div style={{ marginTop: '32px', fontSize: 'clamp(20px, 3vw, 28px)', fontWeight: 300, lineHeight: 1.6 }}>
@@ -50,6 +50,7 @@ export default function PunkAnime() {
               src="/images/VisualDesign/9_PunkAnime/punk_anime.png"
               alt="Punk Anime photoshoot header"
               className="image-slot"
+              style={{padding: '0 0 0 10px'}}
             />
           </div>
         </div>

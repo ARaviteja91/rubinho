@@ -1041,8 +1041,8 @@ a:not([data-tile]):hover {
 .case-grid-2col {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 16px;
-  padding: 0 24px 16px;
+  gap: 10px;
+  padding: 5px 10px;
 }
 
 .case-single-img {

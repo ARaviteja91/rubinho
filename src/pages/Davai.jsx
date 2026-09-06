@@ -76,7 +76,7 @@ export default function Davai() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section" style={{ padding: '0px 24px 0px' }} >
+      <section data-reveal className="nia-section" style={{ padding: '0px 10px' }} >
         <p className="nia-paragraph">
           The project combined primary and secondary reseasrch, empathy mapping, user interviews, competitive analysis, prototyping,
           and usability testing. Key findings revealed the importance of compatibility, safety, financial transparency, simplified
