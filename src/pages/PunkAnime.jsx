@@ -25,7 +25,7 @@ export default function PunkAnime() {
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0' }}>
         <div className="case-grid-2col" style={{ gridTemplateColumns: '50% 50%',gap:0 }}>
-          <div className="case-img-tile" >
+          <div className="case-img-tile" style={{padding:'0 5px 0 0'}} >
             <h1 className="nia-title">Punk Anime</h1>
             <div style={{ marginTop: '32px', fontSize: 'clamp(20px, 3vw, 28px)', fontWeight: 300, lineHeight: 1.6 }}>
               <p style={{ margin: 0 }}>
@@ -45,12 +45,11 @@ export default function PunkAnime() {
               </p>
             </div>
           </div>
-          <div className="case-img-tile">
+          <div className="case-img-tile" style={{padding:'0 0 0 8px'}} >
             <img
               src="/images/VisualDesign/9_PunkAnime/punk_anime.png"
               alt="Punk Anime photoshoot header"
               className="image-slot"
-              style={{padding: '0 0 0 10px'}}
             />
           </div>
         </div>
@@ -73,11 +72,12 @@ export default function PunkAnime() {
         </div>
       </div>
 
-      <div data-reveal className="case-single-img">
+      <div data-reveal className="case-single-img" style={{padding:'10px'}}>
         <img
           src="/images/VisualDesign/9_PunkAnime/pka_3.png"
           alt="Punk Anime photoshoot sofa wide shot"
           className="image-slot"
+          
         />
       </div>
 

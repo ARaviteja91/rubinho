@@ -24,8 +24,8 @@ export default function Bloomy() {
       <Header active="visual" hoverLabel={label} />
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0', }}>
-        <div className="case-grid-2col">
-          <div>
+        <div className="case-grid-2col" style={{gridTemplateColumns:'50% 50%',gap:0}} >
+          <div style={{margin:'0 0 0 5px'}}>
             <h1 className="nia-title">
               Bloomy, <span style={{ color: 'var(--muted)' }}>vegan restaurant</span>
             </h1>
@@ -33,11 +33,12 @@ export default function Bloomy() {
               Bloomy is a vegan restaurant concept built around bold flavours, playful expression, and a contemporary approach to plant-based dining. I developed the visual identity across key brand touch points, with a primary focus on the website. The digital experience translates Bloomy’s minimal yet expressive art direction into a clear, engaging, and cohesive online presence.
             </p>
           </div>
-          <div className="case-img-tile">
+          <div className="case-img-tile" style={{margin:'0 0 0 5px'}} >
             <img
               src="/images/VisualDesign/5. bloomy, vegan restaurant/1.webp"
               alt="Bloomy restaurant exterior facade"
               className="image-slot"
+              
             />
           </div>
         </div>
