@@ -52,9 +52,9 @@ export default function Monumentale() {
 
       <section data-reveal className="nia-section">
         <p className="nia-paragraph">
-          Cimitero Monumentale is one of Milan's most iconic historical landmarks. This website redesign project reimagines the digital
-          experience for visitors, art lovers, and researchers by bringing its rich sculpture, architecture, and historical archives into an
-          accessible, intuitive online space.
+          Cimitero Monumentale reimagines the cemetery's digital presence as a more accessible, contemporary, and engaging way to discover one of Milan's 
+          most important cultural landmarks. The project explores how the website can better support different audiences, prioritise relevant content, and make 
+          the visit itself more intriguing through digital tools and storytelling.
         </p>
       </section>
 
@@ -73,8 +73,8 @@ export default function Monumentale() {
 
       <section data-reveal className="nia-section" style={{ padding: ' 80px 24px' }} >
         <p className="nia-paragraph">
-          The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for
-          smaller screens.
+           The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for 
+smaller screens.
         </p>
       </section>
        
