@@ -36,7 +36,7 @@ export default function VisualDesignProjectA() {
           <div><a href="mailto:info@rubinhomulungo.com">info@rubinhomulungo.com</a></div>
           <div>
             Social:{' '}
-            <a href="https://www.instagram.com/unfilteredstudio/" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>,{' '}
+            <a href="https://www.instagram.com/rubinhomulungo" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>,{' '}
             <a href="https://www.linkedin.com/in/rubinhomulungo/" target="_blank" rel="noopener noreferrer" className="border-link">LinkedIn</a>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function VisualDesignProjectA() {
       <Marquee />
 
       <footer className="project-footer">
-        <a href="https://www.instagram.com/unfilteredstudio/" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>
+        <a href="https://www.instagram.com/rubinhomulungo" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>
         <a href="https://www.linkedin.com/in/rubinhomulungo/" target="_blank" rel="noopener noreferrer" className="border-link">LinkedIn</a>
       </footer>
     </div>

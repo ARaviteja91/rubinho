@@ -67,7 +67,7 @@ export default function Home() {
             <div className="contacts-line">
               Social: {' '}
               <a
-                href="https://www.instagram.com/unfilteredstudio/"
+                href="https://www.instagram.com/rubinhomulungo"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="contacts-sublink"

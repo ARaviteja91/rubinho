@@ -148,7 +148,7 @@ export default function VisualDesign() {
           <div className="contacts-sublink">
             Social:{' '}
             <a
-              href="https://www.instagram.com/unfilteredstudio/"
+              href="https://www.instagram.com/rubinhomulungo"
               target="_blank"
               rel="noopener noreferrer"
               className="border-link"
