@@ -5,13 +5,13 @@ import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 
 const brainstormImages = [
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/1.webp',
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/2.webp',
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/3.webp',
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/4.webp',
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/5.webp',
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/6.webp',
-  '/images/UxCaseStudies/A _NIA/Brainstorming Process/7.webp'
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/1.webp',
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/2.webp',
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/3.webp',
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/4.webp',
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/5.webp',
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/6.webp',
+  '/images/UxCaseStudies/A_NIA/Brainstorming Process/7.webp'
 ];
 
 export default function Nia() {
@@ -62,10 +62,10 @@ export default function Nia() {
 
       <div data-reveal className="nia-offset-images">
         <div className="nia-phone-img-wrapper">
-          <img src="/images/UxCaseStudies/A _NIA/1.webp" alt="Phone in hand showing Nia app" className="image-slot" />
+          <img src="/images/UxCaseStudies/A_NIA/1.webp" alt="Phone in hand showing Nia app" className="image-slot" />
         </div>
         <div className="nia-landscape-img-wrapper">
-          <img src="/images/UxCaseStudies/A _NIA/2.webp" alt="Landscape with Nia logo overlay" className="image-slot" />
+          <img src="/images/UxCaseStudies/A_NIA/2.webp" alt="Landscape with Nia logo overlay" className="image-slot" />
         </div>
       </div>
 
@@ -80,17 +80,17 @@ export default function Nia() {
 
       <div data-reveal className="nia-gallery-block">
         <div className="nia-billboard-wrapper">
-          <img src="/images/UxCaseStudies/A _NIA/3.webp" alt="Billboard: The Internet is Far, Nia is Here" className="image-slot" />
+          <img src="/images/UxCaseStudies/A_NIA/3.webp" alt="Billboard: The Internet is Far, Nia is Here" className="image-slot" />
         </div>
         <div className="nia-pavilion-wrapper">
-          <img src="/images/UxCaseStudies/A _NIA/4.webp" alt="Solar-powered community pavilion" className="image-slot" />
+          <img src="/images/UxCaseStudies/A_NIA/4.webp" alt="Solar-powered community pavilion" className="image-slot" />
         </div>
         <div className="rm-gallery-row">
           <div className="nia-voice-img-wrapper">
-            <img src="/images/UxCaseStudies/A _NIA/5.webp" alt="Phone showing Nia voice interface" className="image-slot" />
+            <img src="/images/UxCaseStudies/A_NIA/5.webp" alt="Phone showing Nia voice interface" className="image-slot" />
           </div>
           <div className="nia-charging-img-wrapper">
-            <img src="/images/UxCaseStudies/A _NIA/6.webp" alt="Community members using solar charging stations" className="image-slot" />
+            <img src="/images/UxCaseStudies/A_NIA/6.webp" alt="Community members using solar charging stations" className="image-slot" />
           </div>
         </div>
       </div>
@@ -99,7 +99,7 @@ export default function Nia() {
         <p className="nia-paragraph">
           The final concept is a voice-first AI application designed for low-bandwidth environments. It uses spoken
           interaction, offline functionality, local data hubs, modular content, and human support to make AI more
-          understandable, accessible, and trustworthy for communities across the Global South. Access the full paper.
+          understandable, accessible, and trustworthy for communities across the Global South. <a style={{color:'#aeaeae'}} href="/images/UxCaseStudies/A_NIA/FINAL_AI_for_the_Global_South.pdf" target="_blank" rel="noopener noreferrer">Access the full paper</a>.
         </p>
       </section>
 
