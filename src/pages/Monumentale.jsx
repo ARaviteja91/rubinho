@@ -71,7 +71,7 @@ export default function Monumentale() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section" style={{ padding: ' 80px 24px' }} >
+      <section data-reveal className="nia-section" style={{ padding: ' 80px 10px' }} >
         <p className="nia-paragraph">
            The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for 
 smaller screens.
@@ -109,7 +109,7 @@ smaller screens.
         </div>
       </div>
 
-      <section data-reveal className="nia-section" style={{padding:'80px 24px'}} >
+      <section data-reveal className="nia-section" style={{padding:'80px 10px'}} >
         <p className="nia-paragraph">
           The final concept, “Discovering Secrets Beneath the Facade,” transforms the website into a digital companion for exploring the cemetery's architecture, monuments, and hidden histories. The mobile experience incorporates an augmented reality feature that reveals additional stories and contextual information around selected monuments, creating a more immersive tour while helping the Monumentale reach a broader audience and extend the experience beyond the physical site.
         </p>
