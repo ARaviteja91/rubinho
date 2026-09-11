@@ -671,7 +671,7 @@ a:not([data-tile]):hover {
 }
 
 .nia-title {
-  font-size: clamp(24px, 6vw, 40px);
+  font-size: clamp(24px, 6vw, 36px);
   font-weight: 300;
   letter-spacing: -0.02em;
   margin: -12px 0 0;

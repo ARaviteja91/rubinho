@@ -56,7 +56,7 @@ export default function Info() {
           <div>Currently Based in Milan, Italy</div>
           <div>
             Social:{' '}
-            <a href="https://www.instagram.com/unfilteredstudio/" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>,{' '}
+            <a href="https://www.instagram.com/rubinhomulungo" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>,{' '}
             <a href="https://www.linkedin.com/in/rubinhomulungo/" target="_blank" rel="noopener noreferrer" className="border-link">LinkedIn</a>
           </div>
           <div>Read CV / Resume</div>
