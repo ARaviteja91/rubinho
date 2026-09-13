@@ -26,7 +26,7 @@ export default function IoTInterface() {
       <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">
           <div className="case-img-tile" >
-            <h1 className="nia-title">IoT home interface</h1>
+            <h1 className="nia-title">IoT, <span style={{ color: 'var(--muted)' }}>home interface</span></h1>
             <p className="nia-paragraph" style={{ marginTop: '24px' }}>
               A smart-home tablet dashboard that centralises everyday control through quick actions, live camera feeds,
               automated presets, room-based navigation, and device categories. The interface helps residents manage
