@@ -840,6 +840,7 @@ a:not([data-tile]):hover {
   list-style: none;
   margin: 0;
   padding: 0;
+  text-transform: capitalize;
 }
 
 .nia-index-item {
@@ -996,7 +997,6 @@ a:not([data-tile]):hover {
 /* Visual Design Page 3-Column Grid Styles */
 .vd-new-intro {
   padding: 120px 10px 30px;
-  max-width: 1000px;
 }
 
 .vd-intro-text {
