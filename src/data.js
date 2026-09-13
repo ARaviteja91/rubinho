@@ -18,14 +18,14 @@ export const uxProjects = [
 ];
 
 export const visualProjects = [
-  { client: 'Bloomy', title: 'vegan restaurant', image: '/images/HomePage/bloomy.webp', link: '/visual-design/bloomy' },
-  { client: 'NotePad', title: 'period calendar', image: '/images/HomePage/notepad.webp', link: '/visual-design/notepad' },
+  { client: 'Bloomy', title: 'Vegan Restaurant', image: '/images/HomePage/bloomy.webp', link: '/visual-design/bloomy' },
+  { client: 'NotePad', title: 'Period Calendar', image: '/images/HomePage/notepad.webp', link: '/visual-design/notepad' },
   { client: 'Mille Collines Simbisi Sweater', title: '', image: '/images/HomePage/simbsi.webp', link: '/visual-design/simbisi-sweater' },
-  { client: 'Mille Collines Tulia mugs', title: '', image: '/images/VisualDesign/tulia_mugs.webp', link: '/visual-design/tulia-mugs' },
-  { client: 'J.L PaPa', title: 'blade catalogue', image: '/images/HomePage/papa.webp', link: '/visual-design/papa' },
-  { client: 'IoT home Interface', title: '', image: '/images/VisualDesign/iot.png', link: '/visual-design/iot' },
-  { client: 'Hot Ones', title: 'data visualisation', image: '/images/VisualDesign/hot_ones.png', link: '/visual-design/hot-ones' },
-  { client: 'DrivR', title: 'luxury car rental app', image: '/images/VisualDesign/drivr.png', link: '/visual-design/drivr' },
+  { client: 'Mille Collines Tulia Mugs', title: '', image: '/images/VisualDesign/tulia_mugs.webp', link: '/visual-design/tulia-mugs' },
+  { client: 'J.L PaPa', title: 'Blade Catalogue', image: '/images/HomePage/papa.webp', link: '/visual-design/papa' },
+  { client: 'IoT Home Interface', title: '', image: '/images/VisualDesign/iot.png', link: '/visual-design/iot' },
+  { client: 'Hot Ones', title: 'Data visualisation', image: '/images/VisualDesign/hot_ones.png', link: '/visual-design/hot-ones' },
+  { client: 'DrivR', title: 'Luxury car rental app', image: '/images/VisualDesign/drivr.png', link: '/visual-design/drivr' },
   { client: 'Punk Anime', title: '', image: '/images/VisualDesign/punk_anime.png', link: '/visual-design/punk-anime' }
 ];
 
