@@ -24,8 +24,8 @@ export const visualProjects = [
   { client: 'Mille Collines Tulia Mugs', title: '', image: '/images/VisualDesign/tulia_mugs.webp', link: '/visual-design/tulia-mugs' },
   { client: 'J.L PaPa', title: 'Blade Catalogue', image: '/images/HomePage/papa.webp', link: '/visual-design/papa' },
   { client: 'IoT Home Interface', title: '', image: '/images/VisualDesign/iot.png', link: '/visual-design/iot' },
-  { client: 'Hot Ones', title: 'Data visualisation', image: '/images/VisualDesign/hot_ones.png', link: '/visual-design/hot-ones' },
-  { client: 'DrivR', title: 'Luxury car rental app', image: '/images/VisualDesign/drivr.png', link: '/visual-design/drivr' },
+  { client: 'Hot Ones', title: 'Data Visualisation', image: '/images/VisualDesign/hot_ones.png', link: '/visual-design/hot-ones' },
+  { client: 'DrivR', title: 'Luxury Car Rental App', image: '/images/VisualDesign/drivr.png', link: '/visual-design/drivr' },
   { client: 'Punk Anime', title: '', image: '/images/VisualDesign/punk_anime.png', link: '/visual-design/punk-anime' }
 ];
 
