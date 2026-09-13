@@ -962,6 +962,13 @@ a:not([data-tile]):hover {
 }
 
 @media (max-width: 768px) {
+  .asp-balance{
+    aspect-ratio: 0 !important;
+  }
+  .hero-text{
+    text-align: left;
+  }
+
   .info-row-1 {
     padding-top: 100px;
   }

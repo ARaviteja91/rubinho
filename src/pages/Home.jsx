@@ -20,7 +20,7 @@ export default function Home() {
               gridColumn: p.start ? `${p.start} / span ${p.span}` : `span ${p.span}`
             };
             const content = (
-              <div className="grid-tile" style={{ aspectRatio: p.ratio }}>
+              <div className={p.ratio?"grid-title asp-balance":"grid-tile" } style={{ aspectRatio: p.ratio }}>
                 <img src={p.image} alt="" className="grid-image" />
               </div>
             );
