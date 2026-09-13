@@ -676,6 +676,7 @@ a:not([data-tile]):hover {
   font-weight: 300;
   letter-spacing: -0.02em;
   margin: -12px 0 0;
+  text-transform: capitalize;
 }
 
 .nia-subtitle {
