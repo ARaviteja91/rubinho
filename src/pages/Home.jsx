@@ -86,8 +86,9 @@ export default function Home() {
             </div>
             <div className="contacts-line">
               <a
-                href="#"
-                onClick={(e) => e.preventDefault()}
+                href="/images/Rubinho_Mulungo_Product_Designer_CV.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="contacts-sublink"
               >
                 Read CV/ Resume

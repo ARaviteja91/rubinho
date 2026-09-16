@@ -59,7 +59,11 @@ export default function Info() {
             <a href="https://www.instagram.com/rubinhomulungo" target="_blank" rel="noopener noreferrer" className="border-link">Instagram</a>,{' '}
             <a href="https://www.linkedin.com/in/rubinhomulungo/" target="_blank" rel="noopener noreferrer" className="border-link">LinkedIn</a>
           </div>
-          <div>Read CV / Resume</div>
+          <div>
+            <a href="/images/Rubinho_Mulungo_Product_Designer_CV.pdf" target="_blank" rel="noopener noreferrer" className="border-link">
+              Read CV / Resume
+            </a>
+          </div>
         </div>
       </section>
 

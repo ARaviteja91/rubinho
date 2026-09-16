@@ -275,7 +275,7 @@ a:not([data-tile]):hover {
 }
 
 .marquee-text-bold {
-  font-weight: 900;
+  /* font-weight: 900; */
 }
 
 @media (max-width: 768px) {
@@ -1089,7 +1089,9 @@ a:not([data-tile]):hover {
 }
 
 .nia-index-item.is-muted,
-.is-muted {
+.nia-index-item.is-visited,
+.is-muted,
+.is-visited {
   opacity: 0.4;
   color: var(--muted);
 }
