@@ -234,7 +234,7 @@ a:not([data-tile]):hover {
 }
 
 .landing-cover {
-  width: 220px;
+  width: auto;
   height: 100%;
   object-fit: fill;
 }
@@ -475,14 +475,14 @@ a:not([data-tile]):hover {
 }
 
 .grid-section {
-  padding: 60px 12px 120px;
+  padding: 60px 8px 120px;
   width: 100%;
 }
 
 .rm-grid {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 10px;
+  gap: 8px;
   grid-auto-flow: dense;
 }
 
