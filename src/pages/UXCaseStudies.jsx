@@ -67,7 +67,12 @@ export default function UXCaseStudies() {
             </a>
           </div>
           <div className="contacts-sublink">
-            <a href="#" onClick={(e) => e.preventDefault()} className="border-link">
+            <a
+              href="/images/Rubinho_Mulungo_Product_Designer_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-link"
+            >
               Read CV/ Resume
             </a>
           </div>

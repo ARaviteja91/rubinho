@@ -5,17 +5,41 @@ const reduce =
   typeof window !== 'undefined' &&
   window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
+const VISITED_PAGES_KEY = 'rubinho_visited_pages';
+
+function getVisitedPages() {
+  if (typeof window === 'undefined') return [];
+  try {
+    return JSON.parse(localStorage.getItem(VISITED_PAGES_KEY) || '[]');
+  } catch {
+    return [];
+  }
+}
+
+function markPageVisited(to) {
+  if (typeof window === 'undefined') return;
+  try {
+    const visited = new Set(getVisitedPages());
+    visited.add(to);
+    localStorage.setItem(VISITED_PAGES_KEY, JSON.stringify([...visited]));
+  } catch {
+    // no-op if storage fails
+  }
+}
+
 export function useFadeNavigate() {
   const navigate = useNavigate();
   return (to) => {
     const root = document.getElementById('root');
     if (reduce || !root) {
+      markPageVisited(to);
       navigate(to);
       window.scrollTo(0, 0);
       return;
     }
     root.classList.add('fx-out');
     setTimeout(() => {
+      markPageVisited(to);
       navigate(to);
       window.scrollTo(0, 0);
       root.classList.remove('fx-out');
@@ -25,13 +49,25 @@ export function useFadeNavigate() {
 
 export function FadeLink({ to, children, ...rest }) {
   const go = useFadeNavigate();
+  const classNameValue = (rest.className || '').toString();
+  const shouldTrackVisited = classNameValue.includes('nia-index-item');
+  const isVisited = shouldTrackVisited && getVisitedPages().includes(to);
+
   const onClick = (e) => {
     if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || e.button !== 0) return;
     e.preventDefault();
+    if (shouldTrackVisited) {
+      markPageVisited(to);
+    }
     go(to);
   };
+
+  const className = [classNameValue, isVisited ? 'is-visited' : '']
+    .filter(Boolean)
+    .join(' ');
+
   return (
-    <a href={to} onClick={onClick} {...rest}>
+    <a href={to} onClick={onClick} {...rest} className={className}>
       {children}
     </a>
   );
