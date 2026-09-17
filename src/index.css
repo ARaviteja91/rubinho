@@ -35,7 +35,7 @@ body {
   color: var(--fg);
   font-family: 'Untitled Sans Light', Helvetica, Arial, sans-serif;
   font-size: 13px;
-  line-height: 1.45;
+  line-height: 1;
   -webkit-font-smoothing: antialiased;
   letter-spacing: -3.17px;
 }
@@ -105,7 +105,7 @@ a:not([data-tile]):hover {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 12px;
+  gap: 8px;
   width: 100%;
 }
 
@@ -176,8 +176,8 @@ a:not([data-tile]):hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 8px 16px;
-  padding: 18px 10px 3% 10px;
+  gap: 8px;
+  padding: 8px 8px 4% 10px;
   background: var(--bg);
   color: var(--fg);
 }
@@ -185,7 +185,7 @@ a:not([data-tile]):hover {
 .header-link {
   font-family: 'Untitled Sans Light', sans-serif;
   font-weight: 300;
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   white-space: nowrap;
 }
 
@@ -199,7 +199,7 @@ a:not([data-tile]):hover {
   position: absolute;
   top: 100%;
   left: 0;
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   opacity: 0.65;
   min-height: 17px;
   white-space: nowrap;
@@ -267,7 +267,7 @@ a:not([data-tile]):hover {
   align-items: baseline;
   gap: 0.45em;
   font-size: clamp(28px, 8vw, 120px);
-  line-height: 1.25;
+  line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   padding-right: 0.6em;
@@ -423,7 +423,7 @@ a:not([data-tile]):hover {
 
 .landing-name {
   font-weight: 300;
-  line-height: 0.95;
+  line-height: 1;
   display: inline-block;
   white-space: nowrap;
 }
@@ -449,8 +449,8 @@ a:not([data-tile]):hover {
 }
 
 .landing-intro {
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.5;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1;
   color: var(--fg);
   width: 100%;
   padding: 0 24px;
@@ -466,12 +466,12 @@ a:not([data-tile]):hover {
 }
 
 .hero-text {
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.5;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1;
   width: 100%;
   padding: 0 10px;
   margin: 0;
-  text-align: justify;
+  text-align: left;
 }
 
 .grid-section {
@@ -518,8 +518,8 @@ a:not([data-tile]):hover {
   display: flex;
   flex-direction: column;
   gap: 2px;
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.45;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1;
   color: var(--fg);
   font-weight: 300;
 }
@@ -548,7 +548,7 @@ a:not([data-tile]):hover {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
 }
 
 .border-link {
@@ -562,7 +562,7 @@ a:not([data-tile]):hover {
 
 /* UX Case Studies / Visual Design Pages */
 .ux-grid-section {
-  padding: 130px 12px 0;
+  padding: 130px 8px 0;
 }
 
 .ux-footer-section {
@@ -584,8 +584,8 @@ a:not([data-tile]):hover {
 }
 
 .large-paragraph {
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.5;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1;
   margin: 0;
 }
 
@@ -607,8 +607,8 @@ a:not([data-tile]):hover {
 }
 
 .project-desc-text {
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.3;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1;
   font-weight: 300;
   margin: 0;
   text-align: left;
@@ -664,7 +664,7 @@ a:not([data-tile]):hover {
   justify-content: space-between;
   align-items: flex-start;
   gap: 12px;
-  padding: 120px 10px 0;
+  padding: 130px 8px 0;
 }
 
 .nia-title-row.alt-padding {
@@ -672,14 +672,15 @@ a:not([data-tile]):hover {
 }
 
 .nia-title {
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
   margin: -12px 0 0;
   text-transform: capitalize;
+  line-height: 1.5
 }
 
 .nia-subtitle {
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
   letter-spacing: -0.02em;
 }
@@ -722,8 +723,8 @@ a:not([data-tile]):hover {
 }
 
 .nia-paragraph {
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.35;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1.2;
   font-weight: 300;
   margin: 0;
   text-align: left;
@@ -737,9 +738,9 @@ a:not([data-tile]):hover {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 12px;
+  gap: 8px;
   width: 75%;
-  padding: 0 12px 60px;
+  padding: 0 8px 60px;
 }
 
 .nia-phone-img-wrapper {
@@ -758,8 +759,8 @@ a:not([data-tile]):hover {
 .nia-gallery-block {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  padding: 0 12px 79px;
+  gap: 8px;
+  padding: 0 8px 79px;
 }
 
 .nia-billboard-wrapper {
@@ -826,7 +827,7 @@ a:not([data-tile]):hover {
 }
 
 .nia-index-heading {
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
   margin: 0 0 12px;
 }
@@ -849,7 +850,7 @@ a:not([data-tile]):hover {
   padding: 5px 0;
   /* border-bottom: 1px solid var(--rule); */
   cursor: default;
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
 }
 
 .nia-index-num {
@@ -956,7 +957,7 @@ a:not([data-tile]):hover {
   display: flex;
   flex-direction: column;
   gap: 4px;
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
 }
 
 .info-credit-section {
@@ -996,13 +997,13 @@ a:not([data-tile]):hover {
 }
 
 .info-services-item {
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
 }
 
 .info-credit-text {
-  font-size: clamp(32px, 2.45vw, 63px);
-  line-height: 1.4;
+  font-size: clamp(32px, 3.2vw, 63px);
+  line-height: 1;
 }
 
 /* Visual Design Page 3-Column Grid Styles */
@@ -1011,9 +1012,9 @@ a:not([data-tile]):hover {
 }
 
 .vd-intro-text {
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
-  line-height: 1.3;
+  line-height: 1;
   color: var(--fg);
   margin: 0;
 }
@@ -1053,8 +1054,8 @@ a:not([data-tile]):hover {
 .case-grid-2col {
   display: grid;
   grid-template-columns: auto auto;
-  gap: 10px;
-  padding: 5px 10px;
+  gap: 8px;
+  padding: 4px 10px;
 }
 
 .case-single-img {
@@ -1103,9 +1104,9 @@ a:not([data-tile]):hover {
   display: inline-block;
   color: inherit;
   text-decoration: none;
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
-  line-height: 1.3;
+  line-height: 1;
   transition: opacity 0.2s ease;
 }
 
@@ -1114,7 +1115,7 @@ a:not([data-tile]):hover {
 }
 
 .vd-index-heading {
-  font-size: clamp(32px, 2.45vw, 63px);
+  font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
   margin-bottom: 24px;
 }
