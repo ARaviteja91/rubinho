@@ -23,9 +23,9 @@ export default function Bloomy() {
     <div className="page-container" style={{ position: 'relative' }}>
       <Header active="visual" hoverLabel={label} />
 
-      <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0', }}>
+      <section data-reveal className="nia-section" style={{ padding: '140px 0 2px 0', }}>
         <div className="case-grid-2col" style={{gridTemplateColumns:'50% 50%',gap:0}} >
-          <div style={{margin:'0 0 0 5px'}}>
+          <div style={{padding:'0 0 0 5px'}}>
             <h1 className="nia-title">
               Bloomy, <span style={{ color: 'var(--muted)' }}>vegan restaurant</span>
             </h1>
