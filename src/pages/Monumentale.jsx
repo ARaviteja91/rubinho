@@ -58,7 +58,7 @@ export default function Monumentale() {
         </p>
       </section>
 
-      <div data-reveal className="case-single-img" style={{padding:'0 10px 10px'}}>
+      <div data-reveal className="case-single-img" style={{padding:'0 8px 4px'}}>
         <img src="/images/UxCaseStudies/E_MONUMENTALE/1.webp" alt="Monumentale cover artwork" className="image-slot" />
       </div>
 
@@ -84,7 +84,7 @@ smaller screens.
           <img src="/images/UxCaseStudies/E_MONUMENTALE/5.gif" alt="Monuments archive gallery" className="image-slot" />
         </div>
         <div className="case-img-tile" style={{gridColumn:'1 / 3'}}>
-          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" style={{paddingTop:'10px',width:'40%'}} />
+          <img src="/images/UxCaseStudies/E_MONUMENTALE/4.gif" alt="Mobile responsive layout" className="image-slot" style={{paddingTop:'8px',width:'40%'}} />
         </div>
       </div>
       

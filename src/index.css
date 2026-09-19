@@ -266,7 +266,7 @@ a:not([data-tile]):hover {
   display: flex;
   align-items: baseline;
   gap: 0.45em;
-  font-size: clamp(28px, 8vw, 120px);
+  font-size: clamp(28px, 12vw, 234px);
   line-height: 1;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -449,8 +449,8 @@ a:not([data-tile]):hover {
 }
 
 .landing-intro {
-  font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1;
+  font-size: clamp(32px, 3.35vw, 63px);
+  line-height: 1.25;
   color: var(--fg);
   width: 100%;
   padding: 0 24px;
@@ -506,7 +506,7 @@ a:not([data-tile]):hover {
 }
 
 .contacts-section {
-  padding: 80px 10px 40px;
+  padding: 238px 8px 114px;
 }
 
 .contacts-inner {
@@ -519,7 +519,7 @@ a:not([data-tile]):hover {
   flex-direction: column;
   gap: 2px;
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1;
+  line-height: 1.2;
   color: var(--fg);
   font-weight: 300;
 }

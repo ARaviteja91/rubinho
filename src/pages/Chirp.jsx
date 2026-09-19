@@ -65,7 +65,7 @@ export default function Chirp() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{padding:'80px 10px'}}>
         <p className="nia-paragraph">
           The project was developed independently with a focus on creating a multi-sensory experience for visually impaired and
           hearing-impaired users. The design process explored how colour, movement, sound, and interface feedback could communicate
@@ -82,7 +82,7 @@ export default function Chirp() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{padding:'80px 10px'}} >
         <p className="nia-paragraph">
           The final concept is a weather application that visually and sonically responds to current and upcoming conditions. A
           progressing loading line and rhythmic ticking sound represent the passing of time, while changing gradients and atmospheric
