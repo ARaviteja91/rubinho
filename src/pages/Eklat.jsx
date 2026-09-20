@@ -97,7 +97,7 @@ export default function Eklat() {
       </div>
 
       <section data-reveal className="nia-section">
-        <p className="nia-paragraph">
+        <p className="nia-paragraph" style={{padding:'80px 0 0 0'}}>
           The final concept is an e-commerce website that serves as the central expression of Eklat's identity. A cinematic homepage
           introduces the brand's world, while a minimal product grid and streamlined navigation support a clear and focused shopping
           experience.
@@ -123,7 +123,7 @@ export default function Eklat() {
       </div>
 
       <section data-reveal className="nia-section">
-        <p className="nia-paragraph">
+        <p className="nia-paragraph" style={{padding:'80px 0'}} >
           The wider art direction extends across social media, packaging, editorial design, and outdoor communication, creating a cohesive
           brand experience centred on timeless fashion and individuality. As a solo project, I led the art direction, branding, and website
           design.

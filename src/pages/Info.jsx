@@ -39,7 +39,7 @@ export default function Info() {
       <section data-reveal className="info-row-3">
         <div className="info-row-3-col1"></div>
         <div className="info-row-3-col2 info-services-wrapper">
-          <h2 className="nia-subtitle" style={{ marginBottom: 20 }}>Services</h2>
+          <h2 className="nia-subtitle" style={{ marginBottom: 60 }}>Services</h2>
           <ul className="info-services-list">
             {SERVICES.map((s) => (
               <li key={s} className="info-services-item">{s}</li>
