@@ -11,7 +11,12 @@ export default function Home() {
     <div className="page-container">
       <Header hoverLabel={label} />
       <section data-reveal className="hero-section">
-        <p className="hero-text">{INTRO}</p>
+        <p className="landing-intro">
+        A Product Designer who blends UX strategy and visual craft to turn <br />
+        complex ideas into clear, accessible, and engaging digital experiences. <br />
+        I focus on simplifying complexity and making products easy <br />
+        to understand. Making design experiences feel intuitive and meaningful.
+        </p>
       </section>
       <section className="grid-section" onMouseLeave={() => setHovered(null)}>
         <div className="rm-grid">

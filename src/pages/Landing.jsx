@@ -59,7 +59,10 @@ export default function Landing() {
         </div>
       </div>
       <p className="landing-intro">
-        {INTRO}
+        A Product Designer who blends UX strategy and visual craft to turn <br />
+        complex ideas into clear, accessible, and engaging digital experiences. <br />
+        I focus on simplifying complexity and making products easy <br />
+        to understand. Making design experiences feel intuitive and meaningful.
       </p>
     </div>
   );

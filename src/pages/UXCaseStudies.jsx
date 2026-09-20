@@ -41,11 +41,9 @@ export default function UXCaseStudies() {
       </section>
       <section data-reveal className="contacts-section">
         <div className="contacts-text-block">
-          <div className="contacts-heading">Rubinho Mulungo</div>
           <a href="mailto:info@rubinhomulungo.com" className="contacts-sublink">
             info@rubinhomulungo.com
           </a>
-          <div className="contacts-sublink">Currently Based in Milan, Italy</div>
           <div className="contacts-sublink">
             Social:{' '}
             <a
@@ -66,16 +64,7 @@ export default function UXCaseStudies() {
               LinkedIn
             </a>
           </div>
-          <div className="contacts-sublink">
-            <a
-              href="/images/Rubinho_Mulungo_Product_Designer_CV.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="border-link"
-            >
-              Read CV/ Resume
-            </a>
-          </div>
+          
         </div>
       </section>
       <Marquee border={false} />

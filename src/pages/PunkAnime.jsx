@@ -27,7 +27,7 @@ export default function PunkAnime() {
         <div className="case-grid-2col" style={{ gridTemplateColumns: '50% 50%',gap:0 }}>
           <div className="case-img-tile" style={{padding:'0 5px 0 0'}} >
             <h1 className="nia-title">Punk Anime</h1>
-            <div style={{ marginTop: '32px', fontSize: 'clamp(20px, 3vw, 28px)', fontWeight: 300, lineHeight: 1.6 }}>
+            <div style={{ marginTop: '32px', fontSize: 'clamp(20px, 3.2vw, 63px)', fontWeight: 300, lineHeight: 1.6 }}>
               <p style={{ margin: 0 }}>
                 Shot by me <span style={{ color: 'var(--muted)' }}>@unfilteredstudio</span>
               </p>

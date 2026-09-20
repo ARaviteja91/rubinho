@@ -76,7 +76,7 @@ export default function Davai() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section" style={{ padding: '0px 10px' }} >
+      <section data-reveal className="nia-section" style={{ padding: '80px 10px' }} >
         <p className="nia-paragraph">
           The project combined primary and secondary reseasrch, empathy mapping, user interviews, competitive analysis, prototyping,
           and usability testing. Key findings revealed the importance of compatibility, safety, financial transparency, simplified
@@ -84,7 +84,7 @@ export default function Davai() {
         </p>
       </section>
 
-      <div data-reveal className="case-single-img-center" style={{ justifyContent: 'start', alignItems: 'center', paddingBottom: '0px' }} >
+      <div data-reveal className="case-single-img-center" style={{ justifyContent: 'start', alignItems: 'center', padding: '0px' }} >
         <img src="/images/UxCaseStudies/B_DAVAI/5.gif" alt="Davai puzzle luggage logo" className="" />
       </div>
 
@@ -97,7 +97,7 @@ export default function Davai() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{padding:'80px 10px'}}>
         <p className="nia-paragraph">
           The final concept is a mobile application built around three connected features: a preference-based matching system,
           collaborative budget tracking, and Crafted Journeys, a collection of curated destinations and group travel opportunities. My
