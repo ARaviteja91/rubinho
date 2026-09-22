@@ -69,18 +69,18 @@ export default function Eklat() {
         </div>
       </div>
 
-      <section data-reveal className="nia-section">
-        <p className="nia-paragraph">
+      <section data-reveal className="nia-section" style={{padding:'80px 8px'}} >
+        <p className="nia-paragraph"  >
           The project was developed independently with a focus on art direction, brand identity, and UX/UI design. I defined the visual
           concept, typography, imagery, and creative direction, then translated the system into the website's structure and interface.
         </p>
       </section>
 
       <div data-reveal className="case-single-img-center">
-        <img src="/images/UxCaseStudies/D_EKLAT/4.webp" alt="Billboard poster in nature" className="image-slot" style={{ width: '60%' }} />
+        <img src="/images/UxCaseStudies/D_EKLAT/4.webp" alt="Billboard poster in nature" className="image-slot" style={{ width: '60%' ,padding:'0px 10px'}} />
       </div>
 
-      <section data-reveal className="nia-section">
+      <section data-reveal className="nia-section" style={{padding:'60px 10px'}}>
         <p className="nia-paragraph">
           The design balanced immersive editorial storytelling with clear navigation and product browsing, creating a consistent journey
           between the homepage, clothing, accessories, and lookbook sections.
@@ -109,7 +109,7 @@ export default function Eklat() {
           <img src="/images/UxCaseStudies/D_EKLAT/9.webp" alt="Branding & stationery layout" className="image-slot" />
         </div>
         <div className="case-img-tile">
-          <img src="/images/UxCaseStudies/D_EKLAT/10.gif" alt="Product grid mobile view" className="image-slot" style={{ height: 'auto' }} />
+          <img src="/images/UxCaseStudies/D_EKLAT/10.gif" alt="Product grid mobile view" className="image-slot" style={{ height: 'auto',width: 'calc(100% - 10px)' }} />
         </div>
       </div>
 
