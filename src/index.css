@@ -551,9 +551,9 @@ a:not([data-tile]):hover {
   font-size: clamp(32px, 3.2vw, 63px);
 }
 
-.border-link {
+/* .border-link {
   border-bottom: 1px solid var(--rule);
-}
+} */
 
 .block-fit-link {
   display: block;
