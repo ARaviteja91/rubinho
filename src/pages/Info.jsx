@@ -50,7 +50,7 @@ export default function Info() {
 
       {/* Row 4: 1 column with contact details */}
       <section data-reveal className="info-row-4">
-        <h2 className="nia-index-heading" style={{ marginBottom: 16 }}>Contacts</h2>
+        <h2 className="nia-index-heading" style={{ marginBottom: '1em' }}>Contacts</h2>
         <div className="info-contacts-list">
           <div><a href="mailto:info@rubinhomulungo.com">info@rubinhomulungo.com</a></div>
           <div>Currently Based in Milan, Italy</div>
