@@ -23,27 +23,30 @@ import Info from './pages/Info.jsx';
 export default function App() {
   usePageFx();
   return (
-    <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/home" element={<Home />} />
-      <Route path="/ux-case-studies" element={<UXCaseStudies />} />
-      <Route path="/ux-case-studies/nia" element={<Nia />} />
-      <Route path="/ux-case-studies/davai" element={<Davai />} />
-      <Route path="/ux-case-studies/chirp" element={<Chirp />} />
-      <Route path="/ux-case-studies/eklat" element={<Eklat />} />
-      <Route path="/ux-case-studies/monumentale" element={<Monumentale />} />
-      <Route path="/visual-design" element={<VisualDesign />} />
-      <Route path="/visual-design/bloomy" element={<Bloomy />} />
-      <Route path="/visual-design/notepad" element={<NotePadVD />} />
-      <Route path="/visual-design/simbisi-sweater" element={<SimbisiSweater />} />
-      <Route path="/visual-design/tulia-mugs" element={<TuliaMugs />} />
-      <Route path="/visual-design/papa" element={<JLPaPa />} />
-      <Route path="/visual-design/iot" element={<IoTInterface />} />
-      <Route path="/visual-design/hot-ones" element={<HotOnes />} />
-      <Route path="/visual-design/drivr" element={<DrivR />} />
-      <Route path="/visual-design/punk-anime" element={<PunkAnime />} />
-      <Route path="/info" element={<Info />} />
-      <Route path="*" element={<Home />} />
-    </Routes>
+    <>
+       
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/ux-case-studies" element={<UXCaseStudies />} />
+        <Route path="/ux-case-studies/nia" element={<Nia />} />
+        <Route path="/ux-case-studies/davai" element={<Davai />} />
+        <Route path="/ux-case-studies/chirp" element={<Chirp />} />
+        <Route path="/ux-case-studies/eklat" element={<Eklat />} />
+        <Route path="/ux-case-studies/monumentale" element={<Monumentale />} />
+        <Route path="/visual-design" element={<VisualDesign />} />
+        <Route path="/visual-design/bloomy" element={<Bloomy />} />
+        <Route path="/visual-design/notepad" element={<NotePadVD />} />
+        <Route path="/visual-design/simbisi-sweater" element={<SimbisiSweater />} />
+        <Route path="/visual-design/tulia-mugs" element={<TuliaMugs />} />
+        <Route path="/visual-design/papa" element={<JLPaPa />} />
+        <Route path="/visual-design/iot" element={<IoTInterface />} />
+        <Route path="/visual-design/hot-ones" element={<HotOnes />} />
+        <Route path="/visual-design/drivr" element={<DrivR />} />
+        <Route path="/visual-design/punk-anime" element={<PunkAnime />} />
+        <Route path="/info" element={<Info />} />
+        <Route path="*" element={<Home />} />
+      </Routes>
+    </>
   );
 }
