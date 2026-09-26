@@ -3,6 +3,7 @@ import { visualProjects } from '../data.js';
 import { FadeLink } from '../fx.jsx';
 import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
+import FloatingPreview, { positionFloatingPreview } from '../components/FloatingPreview.jsx';
 
 export default function HotOnes() {
   const [hovered, setHovered] = useState(null);
@@ -15,8 +16,7 @@ export default function HotOnes() {
       : '';
 
   const movePreview = (e) => {
-    const el = previewRef.current;
-    if (el) el.style.transform = `translate(${e.clientX + 18}px, ${e.clientY + 18}px)`;
+    positionFloatingPreview(previewRef.current, e);
   };
 
   return (
@@ -77,23 +77,11 @@ export default function HotOnes() {
 
       <Marquee border={false} />
 
-      <div
+      <FloatingPreview
         ref={previewRef}
-        className="floating-preview"
-        style={{
-          opacity: hovered != null ? 1 : 0,
-          transform: 'translate(-9999px,-9999px)'
-        }}
-      >
-        {hovered != null && visualProjects[hovered]?.image && (
-          <img
-            src={visualProjects[hovered].image}
-            alt={label}
-            className="floating-preview-image"
-          />
-        )}
-        <span className="image-placeholder-label">{label}</span>
-      </div>
+        project={hovered != null ? visualProjects[hovered] : null}
+        label={label}
+      />
     </div>
   );
 }

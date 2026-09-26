@@ -17,8 +17,10 @@ export default function Header({ active, hoverLabel }) {
         </span>
       </div>
       <nav className="nav-container">
-        {nav('ux', '/ux-case-studies', 'UX Case Studies')}
-        {nav('visual', '/visual-design', 'Visual Design')}
+        <span className='mid-nav' >
+          {nav('ux', '/ux-case-studies', 'UX Case Studies')}
+          {nav('visual', '/visual-design', 'Visual Design')}
+        </span>
         {nav('info', '/info', 'Info')}
       </nav>
     </header>

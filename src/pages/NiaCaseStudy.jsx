@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import Header from '../components/Header';
 import Marquee from '../components/Marquee';
 import { uxProjects } from '../data/projects';
+import FloatingPreview, { positionFloatingPreview } from '../components/FloatingPreview.jsx';
 
 const FILMSTRIP = [
   { width: 180, ratio: '292/405', src: '/assets/nia-film-1.png' },
@@ -20,9 +21,7 @@ export default function NiaCaseStudy() {
   const hoveredP = hovered != null ? projects[hovered] : null;
 
   const movePreview = (e) => {
-    const el = previewRef.current;
-    if (!el) return;
-    el.style.transform = `translate(${e.clientX + 18}px, ${e.clientY + 18}px)`;
+    positionFloatingPreview(previewRef.current, e);
   };
 
   return (
@@ -133,23 +132,11 @@ export default function NiaCaseStudy() {
       <Marquee />
 
       {/* Floating index preview */}
-      <div
+      <FloatingPreview
         ref={previewRef}
-        className="floating-preview"
-        style={{
-          opacity: hoveredP ? 1 : 0,
-          transform: 'translate(-9999px,-9999px)'
-        }}
-      >
-        {hoveredP?.image && (
-          <img
-            src={hoveredP.image}
-            alt={hoveredP ? hoveredP.label : ''}
-            className="floating-preview-image"
-          />
-        )}
-        <span className="image-placeholder-label">{hoveredP ? hoveredP.label : ''}</span>
-      </div>
+        project={hoveredP}
+        label={hoveredP?.label ?? ''}
+      />
     </div>
   );
 }

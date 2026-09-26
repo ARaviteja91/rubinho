@@ -35,7 +35,7 @@ body {
   color: var(--fg);
   font-family: 'Untitled Sans Light', Helvetica, Arial, sans-serif;
   font-size: 13px;
-  line-height: 1;
+  line-height: 1.25;
   -webkit-font-smoothing: antialiased;
   letter-spacing: -3.17px;
 }
@@ -189,6 +189,10 @@ a:not([data-tile]):hover {
   white-space: nowrap;
 }
 
+.mid-nav a{
+  margin-left: 8%;
+}
+
 .logo-container {
   position: relative;
   display: flex;
@@ -267,7 +271,7 @@ a:not([data-tile]):hover {
   align-items: baseline;
   gap: 0.45em;
   font-size: clamp(28px, 12vw, 234px);
-  line-height: 1;
+  line-height: 1.25;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   padding-right: 0.6em;
@@ -382,7 +386,7 @@ a:not([data-tile]):hover {
 
   .marquee-text {
     font-size: clamp(24px, 7vw, 40px);
-    line-height: 1.3;
+    line-height: 1.25;
   }
 }
 
@@ -423,7 +427,7 @@ a:not([data-tile]):hover {
 
 .landing-name {
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.25;
   display: inline-block;
   white-space: nowrap;
 }
@@ -460,14 +464,14 @@ a:not([data-tile]):hover {
 /* Home / Grid Page styles */
 .hero-section {
   padding: 140px 0 12px;
-  min-height: 88vh;
+  min-height: 100vh;
   display: flex;
   align-items: flex-end;
 }
 
 .hero-text {
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1;
+  line-height: 1.25;
   width: 100%;
   padding: 0 10px;
   margin: 0;
@@ -477,6 +481,7 @@ a:not([data-tile]):hover {
 .grid-section {
   padding: 60px 8px 120px;
   width: 100%;
+  transform: translate(0,-7em);
 }
 
 .rm-grid {
@@ -519,7 +524,7 @@ a:not([data-tile]):hover {
   flex-direction: column;
   gap: 2px;
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1.2;
+  line-height: 1.25;
   color: var(--fg);
   font-weight: 300;
 }
@@ -549,7 +554,7 @@ a:not([data-tile]):hover {
   flex-direction: column;
   gap: 4px;
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 /* .border-link {
@@ -586,7 +591,7 @@ a:not([data-tile]):hover {
 
 .large-paragraph {
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1;
+  line-height: 1.25;
   margin: 0;
 }
 
@@ -609,7 +614,7 @@ a:not([data-tile]):hover {
 
 .project-desc-text {
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1;
+  line-height: 1.25;
   font-weight: 300;
   margin: 0;
   text-align: left;
@@ -677,7 +682,7 @@ a:not([data-tile]):hover {
   font-weight: 300;
   margin: -12px 0 0;
   text-transform: capitalize;
-  line-height: 1.5
+  line-height: 1.25
 }
 
 .nia-subtitle {
@@ -725,7 +730,7 @@ a:not([data-tile]):hover {
 
 .nia-paragraph {
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1.2;
+  line-height: 1.25;
   font-weight: 300;
   margin: 0;
   text-align: left;
@@ -865,7 +870,7 @@ a:not([data-tile]):hover {
   top: 0;
   left: 0;
   width: auto;
-  max-width: 280px;
+  max-width: min(168px, calc(100vw - 16px));
   height: auto;
   pointer-events: none;
   z-index: 80;
@@ -883,7 +888,7 @@ a:not([data-tile]):hover {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 50vh;
+  max-height: 30vh;
   object-fit: contain;
   background: transparent;
 }
@@ -948,7 +953,7 @@ a:not([data-tile]):hover {
   display: flex;
   flex-direction: column;
   gap: 6px;
-  line-height: 1.2;
+  line-height: 1.25;
 }
 
 .info-row-4 {
@@ -1005,7 +1010,7 @@ a:not([data-tile]):hover {
 
 .info-credit-text {
   font-size: clamp(32px, 3.2vw, 63px);
-  line-height: 1;
+  line-height: 1.25;
 }
 
 /* Visual Design Page 3-Column Grid Styles */
@@ -1016,7 +1021,7 @@ a:not([data-tile]):hover {
 .vd-intro-text {
   font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.25;
   color: var(--fg);
   margin: 0;
 }
@@ -1108,7 +1113,7 @@ a:not([data-tile]):hover {
   text-decoration: none;
   font-size: clamp(32px, 3.2vw, 63px);
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.25;
   transition: opacity 0.2s ease;
 }
 

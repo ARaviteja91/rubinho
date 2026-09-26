@@ -3,6 +3,7 @@ import { uxProjects } from '../data.js';
 import { FadeLink } from '../fx.jsx';
 import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
+import FloatingPreview, { positionFloatingPreview } from '../components/FloatingPreview.jsx';
 
 const brainstormImages = [
   '/images/UxCaseStudies/E_MONUMENTALE/Brainstorming Process/1.webp',
@@ -20,8 +21,7 @@ export default function Monumentale() {
   const label = hovered != null ? `${uxProjects[hovered].client} / ${uxProjects[hovered].title}` : '';
 
   const movePreview = (e) => {
-    const el = previewRef.current;
-    if (el) el.style.transform = `translate(${e.clientX + 18}px, ${e.clientY + 18}px)`;
+    positionFloatingPreview(previewRef.current, e);
   };
 
   return (
@@ -145,23 +145,11 @@ smaller screens.
 
       <Marquee border={false} />
 
-      <div
+      <FloatingPreview
         ref={previewRef}
-        className="floating-preview"
-        style={{
-          opacity: hovered != null ? 1 : 0,
-          transform: 'translate(-9999px,-9999px)'
-        }}
-      >
-        {hovered != null && uxProjects[hovered]?.image && (
-          <img
-            src={uxProjects[hovered].image}
-            alt={label}
-            className="floating-preview-image"
-          />
-        )}
-        <span className="image-placeholder-label">{label}</span>
-      </div>
+        project={hovered != null ? uxProjects[hovered] : null}
+        label={label}
+      />
     </div>
   );
 }

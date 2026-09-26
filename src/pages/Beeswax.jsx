@@ -3,14 +3,14 @@ import { workProjects } from '../data.js';
 import Header from '../components/Header.jsx';
 import Marquee from '../components/Marquee.jsx';
 import ImageSlot from '../components/ImageSlot.jsx';
+import FloatingPreview, { positionFloatingPreview } from '../components/FloatingPreview.jsx';
 
 export default function Beeswax() {
   const [hovered, setHovered] = useState(null);
   const previewRef = useRef(null);
   const label = hovered != null ? `${workProjects[hovered].client} / ${workProjects[hovered].title}` : '';
   const movePreview = (e) => {
-    const el = previewRef.current;
-    if (el) el.style.transform = `translate(${e.clientX + 18}px, ${e.clientY + 18}px)`;
+    positionFloatingPreview(previewRef.current, e);
   };
 
   return (
@@ -59,23 +59,11 @@ export default function Beeswax() {
 
       <Marquee />
 
-      <div
+      <FloatingPreview
         ref={previewRef}
-        className="floating-preview"
-        style={{
-          opacity: hovered != null ? 1 : 0,
-          transform: 'translate(-9999px,-9999px)'
-        }}
-      >
-        {hovered != null && workProjects[hovered]?.image && (
-          <img
-            src={workProjects[hovered].image}
-            alt={label}
-            className="floating-preview-image"
-          />
-        )}
-        <span className="image-placeholder-label">{label}</span>
-      </div>
+        project={hovered != null ? workProjects[hovered] : null}
+        label={label}
+      />
     </div>
   );
 }
