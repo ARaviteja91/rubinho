@@ -870,7 +870,7 @@ a:not([data-tile]):hover {
   top: 0;
   left: 0;
   width: auto;
-  max-width: min(168px, calc(100vw - 16px));
+  max-width: min(200px, calc(100vw - 16px));
   height: auto;
   pointer-events: none;
   z-index: 80;
@@ -888,7 +888,7 @@ a:not([data-tile]):hover {
   width: auto;
   max-width: 100%;
   height: auto;
-  max-height: 30vh;
+  max-height: 40vh;
   object-fit: contain;
   background: transparent;
 }

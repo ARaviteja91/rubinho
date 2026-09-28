@@ -32,7 +32,6 @@ const FloatingPreview = forwardRef(function FloatingPreview(
           className="floating-preview-image"
         />
       )}
-      {showLabel && <span className="image-placeholder-label">{label}</span>}
     </div>
   );
 });
