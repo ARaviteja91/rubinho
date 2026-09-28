@@ -69,7 +69,7 @@ export default function Info() {
 
       <div className="info-credit-section">
         <div className="info-credit-text">Website designed by me</div>
-        <div className="info-credit-text">&amp; developed by Ace and Spades Studio</div>
+        <div className="info-credit-text">&amp; developed by <a target='_blank' href='https://xyzgraph.com'>xyzgraph.com</a></div>
       </div>
       <Marquee border={false} padding="0 0 18px" />
     </div>
