@@ -21,7 +21,7 @@ export default function IoTInterface() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="visual" hoverLabel={label} />
+      <Header active="visual" />
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 0px 0' }}>
         <div className="case-grid-2col">

@@ -26,7 +26,7 @@ export default function Monumentale() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="ux" hoverLabel={label} />
+      <Header active="ux" />
 
       <div className="nia-title-row">
         <h1 className="nia-title">
@@ -73,9 +73,11 @@ export default function Monumentale() {
 
       <section data-reveal className="nia-section" style={{ padding: ' 80px 10px' }} >
         <p className="nia-paragraph">
-           The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for 
-smaller screens.
+           The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. 
         </p>
+        <br />
+        <p>I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for 
+smaller screens.</p>
       </section>
        
 
