@@ -25,7 +25,7 @@ export default function Davai() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="ux" hoverLabel={label} />
+      <Header active="ux" />
 
       <div className="nia-title-row">
         <h1 className="nia-title">
@@ -78,7 +78,7 @@ export default function Davai() {
 
       <section data-reveal className="nia-section" style={{ padding: '80px 10px' }} >
         <p className="nia-paragraph">
-          The project combined primary and secondary reseasrch, empathy mapping, user interviews, competitive analysis, prototyping,
+          The project combined primary and secondary research, empathy mapping, user interviews, competitive analysis, prototyping,
           and usability testing. Key findings revealed the importance of compatibility, safety, financial transparency, simplified
           planning tools, and greater user control when arranging trips and connecting with new travel companions.
         </p>
@@ -99,13 +99,18 @@ export default function Davai() {
 
       <section data-reveal className="nia-section" style={{padding:'80px 10px'}}>
         <p className="nia-paragraph">
-          The final concept is a mobile application built around three connected features: a preference-based matching system,
-          collaborative budget tracking, and Crafted Journeys, a collection of curated destinations and group travel opportunities. My
-          contribution focused on designing the budget-tracking experience, helping users set savings goals, monitor expenses, and
-          manage shared travel costs more transparently. Together, these features make travel more accessible, social, and manageable,
-          helping young travelers form meaningful connections and turn shared ambitions into real journeys. Davai was nominated in the
-          New Talent category of the 2024 UX Design Awards.
+          The final concept is a mobile application built around three connected features: a preference-based matching system, collaborative budget tracking, and Crafted Journeys, a collection of curated destinations and group travel opportunities. 
         </p>
+        <br />
+        <p className="nia-paragraph">
+          My contribution focused on designing the budget-tracking experience, helping users set savings goals, monitor expenses, and manage shared travel costs more transparently. Together, these features make travel more accessible, social, and manageable, helping young travelers form meaningful connections and turn shared ambitions into real journeys. 
+        </p>
+        <br />
+        <p className="nia-paragraph">
+          Davai was nominated in the New Talent category of the 2024 UX Design Awards.
+        </p>
+        <br />
+         
       </section>
 
       <div className="nia-video-feature">

@@ -24,7 +24,7 @@ export default function Chirp() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="ux" hoverLabel={label} />
+      <Header active="ux" />
 
       <div className="nia-title-row">
         <h1 className="nia-title">
@@ -67,8 +67,8 @@ export default function Chirp() {
 
       <section data-reveal className="nia-section" style={{padding:'80px 10px'}}>
         <p className="nia-paragraph">
-          The project was developed independently with a focus on creating a multi-sensory experience for visually impaired and
-          hearing-impaired users. The design process explored how colour, movement, sound, and interface feedback could communicate
+          The project was developed independently with a focus on creating a multi-sensory experience for visually and
+          hearing impaired users. The design process explored how colour, movement, sound, and interface feedback could communicate
           weather conditions through multiple forms of interaction rather than relying entirely on conventional text and weather icons.
         </p>
       </section>
@@ -86,7 +86,8 @@ export default function Chirp() {
         <p className="nia-paragraph">
           The final concept is a weather application that visually and sonically responds to current and upcoming conditions. A
           progressing loading line and rhythmic ticking sound represent the passing of time, while changing gradients and atmospheric
-          audio help users interpret shifts in weather throughout the forecast. As a solo project, I developed the concept, visual
+          audio help users interpret shifts in weather throughout the forecast. 
+          <br />As a solo project, I developed the concept, visual
           direction, interface, and interaction approach.
         </p>
       </section>

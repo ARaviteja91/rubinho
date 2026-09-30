@@ -15,7 +15,7 @@ export default function Beeswax() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="visual" hoverLabel={label} />
+      <Header active="visual" />
       <section data-reveal className="project-desc-section">
         <div className="project-desc-text-wrapper">
           <p className="project-desc-text">

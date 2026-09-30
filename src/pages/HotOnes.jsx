@@ -21,7 +21,7 @@ export default function HotOnes() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="visual" hoverLabel={label} />
+      <Header active="visual" />
 
       <section data-reveal className="nia-section" style={{ padding: '140px 0 5px 0' }}>
         <div className="case-grid-2col">
@@ -36,7 +36,8 @@ export default function HotOnes() {
               the heat intensifies.
             </p>
             <p className="nia-paragraph" style={{ marginTop: '16px', color: 'var(--muted)' }}>
-              Watch a compilation of the reactions.
+              
+              <a href="https://youtu.be/XsIf-GFtzQ0?si=gQ4BZhd8v_s5q0d-" target="_blank" rel="noopener noreferrer">Watch a compilation of the reactions.</a>
             </p>
           </div>
           <div className="case-img-tile">

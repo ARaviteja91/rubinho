@@ -24,7 +24,7 @@ export default function Eklat() {
 
   return (
     <div className="page-container" style={{ position: 'relative' }}>
-      <Header active="ux" hoverLabel={label} />
+      <Header active="ux" />
 
       <div className="nia-title-row">
         <h1 className="nia-title">
