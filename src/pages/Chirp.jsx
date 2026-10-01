@@ -87,7 +87,10 @@ export default function Chirp() {
           The final concept is a weather application that visually and sonically responds to current and upcoming conditions. A
           progressing loading line and rhythmic ticking sound represent the passing of time, while changing gradients and atmospheric
           audio help users interpret shifts in weather throughout the forecast. 
-          <br />As a solo project, I developed the concept, visual
+        </p>
+          <br />
+        <p className="nia-paragraph">
+          As a solo project, I developed the concept, visual
           direction, interface, and interaction approach.
         </p>
       </section>

@@ -1033,13 +1033,13 @@ a:not([data-tile]):hover {
 .vd-3col-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 12px;
+  gap: 8px;
 }
 
 .vd-column {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 8px;
 }
 
 .vd-new-footer {

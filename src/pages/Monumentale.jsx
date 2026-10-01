@@ -76,7 +76,7 @@ export default function Monumentale() {
            The project was developed collaboratively around questions of accessibility, audience, content relevance, and how the digital experience could support visitors both on-site and off-site. The redesign focused on simplifying navigation, modernising the visual language, improving access to historical information, and creating clearer pathways between practical visitor needs and cultural discovery. 
         </p>
         <br />
-        <p>I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for 
+        <p className="nia-paragraph">I was responsible for the complete mobile experience, including the adaptation of the interface, navigation, and content hierarchy for 
 smaller screens.</p>
       </section>
        
