@@ -43,7 +43,7 @@ export default function DrivR() {
       </section>
 
       <div data-reveal className="case-single-img" style={{padding:'10px'}} >
-        <img src="/images/VisualDesign/8_DrivR/drivR_1.png" alt="DrivR mobile splash screen mockup" className="image-slot" />
+        <img src="/images/VisualDesign/8_DrivR/drivR_1.gif" alt="DrivR mobile splash screen mockup" className="image-slot" />
       </div>
 
       <section id="index" className="nia-index-section" onMouseLeave={() => setHovered(null)}>
