@@ -73,8 +73,8 @@ export default function VisualDesign() {
               onMouseEnter={() => setHovered(1)}
               className="grid-item"
             >
-              <div className="grid-tile" style={{ aspectRatio: '16/9' }}>
-                <img src={visualProjects[1].image} alt="NotePad" className="grid-image" />
+              <div className="grid-tile" style={{ aspectRatio: '4/3' }}>
+                <img src={visualProjects[1].image} alt="NotePad" className="grid-image" style={{height:'100%'}} />
               </div>
             </FadeLink>
             <FadeLink
