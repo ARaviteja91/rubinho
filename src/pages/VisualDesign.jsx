@@ -74,7 +74,7 @@ export default function VisualDesign() {
               className="grid-item"
             >
               <div className="grid-tile" style={{ aspectRatio: '4/3' }}>
-                <img src={visualProjects[1].image} alt="NotePad" className="grid-image" style={{height:'100%'}} />
+                <img src={visualProjects[1].image} alt="NotePad" className="grid-image" style={{height:'100%',objectFit:'fill'}} />
               </div>
             </FadeLink>
             <FadeLink
