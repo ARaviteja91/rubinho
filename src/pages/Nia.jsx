@@ -99,8 +99,11 @@ export default function Nia() {
         <p className="nia-paragraph">
           The final concept is a voice-first AI application designed for low-bandwidth environments. It uses spoken
           interaction, offline functionality, local data hubs, modular content, and human support to make AI more
-          understandable, accessible, and trustworthy for communities across the Global South. <br />
-          <a style={{color:'#aeaeae'}} href="/images/UxCaseStudies/A_NIA/FINAL_AI_for_the_Global_South.pdf" target="_blank" rel="noopener noreferrer">Access the full paper</a>.
+          understandable, accessible, and trustworthy for communities across the Global South. 
+        </p>
+          <br />
+        <p className="nia-paragraph">
+          <a style={{color:'#aeaeae'}} href="/images/UxCaseStudies/A_NIA/FINAL_AI_for_the_Global_South.pdf" target="_blank" rel="noopener noreferrer">Access the full paper</a>
         </p>
  
       </section>
