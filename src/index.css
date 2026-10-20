@@ -283,6 +283,9 @@ a:not([data-tile]):hover {
 }
 
 @media (max-width: 768px) {
+  *{
+    letter-spacing: normal;
+  }
   .site-header {
     padding: 12px 16px;
   }
@@ -301,9 +304,13 @@ a:not([data-tile]):hover {
     align-items: center;
   }
 
+  .mid-nav a{
+    margin: 0 2em 0 0;
+  }
+
   .nav-container {
     display: flex !important;
-    justify-content: space-between !important;
+    justify-content: flex-start;
     width: 100%;
     gap: 8px !important;
   }
@@ -1137,6 +1144,7 @@ a:not([data-tile]):hover {
     flex-direction: column !important;
     align-items: stretch !important;
     gap: 8px !important;
+    letter-spacing: normal;
   }
 
   .logo-container {
@@ -1146,12 +1154,7 @@ a:not([data-tile]):hover {
     align-items: center;
   }
 
-  .nav-container {
-    display: flex !important;
-    justify-content: space-between !important;
-    width: 100%;
-    gap: 8px !important;
-  }
+   
 
   .header-link {
     font-size: clamp(13px, 3.5vw, 16px);
@@ -1207,5 +1210,64 @@ a:not([data-tile]):hover {
   .nia-index-item,
   .vd-index-heading {
     font-size: clamp(16px, 4.5vw, 22px);
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    letter-spacing: normal;
+  }
+
+  .nav-container,
+  .mid-nav {
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 16px;
+  }
+
+  .mid-nav a {
+    margin: 0;
+  }
+
+  .landing-intro,
+  .hero-text,
+  .large-paragraph,
+  .project-desc-text,
+  .nia-title,
+  .nia-subtitle,
+  .nia-paragraph,
+  .nia-index-item,
+  .nia-index-heading,
+  .info-services-item,
+  .info-credit-text,
+  .contacts-text-block,
+  .info-contacts-list,
+  .vd-intro-text,
+  .vd-index-heading {
+    font-size: clamp(22px, 6vw, 32px);
+  }
+
+  .landing-intro {
+    padding: 0 16px;
+    margin-bottom: 24px;
+  }
+
+  .landing-intro br {
+    display: none;
+  }
+
+  .grid-section {
+    padding: 24px 16px 64px;
+    transform: none;
+  }
+
+  .contacts-section {
+    padding: 80px 16px 72px;
+  }
+
+  .contacts-email {
+    width: auto;
+    overflow-wrap: anywhere;
   }
 }
