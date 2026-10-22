@@ -35,6 +35,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(0)}
               className="grid-item"
+              style={{ order: 0 }}
             >
               <div className="grid-tile">
                 <img src={visualProjects[0].image} alt="Bloomy" className="grid-image" style={{ aspectRatio: '1/1' }} />
@@ -46,6 +47,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(3)}
               className="grid-item"
+              style={{ order: 3 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
                 <img src={visualProjects[3].image} alt="Tulia Mugs" className="grid-image" />
@@ -57,6 +59,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(6)}
               className="grid-item"
+              style={{ order: 6 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '1/1' }}>
                 <img src={visualProjects[6].image} alt="Hot Ones" className="grid-image" />
@@ -72,6 +75,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(1)}
               className="grid-item"
+              style={{ order: 1 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '4/3' }}>
                 <img src={visualProjects[1].image} alt="NotePad" className="grid-image" style={{height:'100%',objectFit:'fill'}} />
@@ -83,6 +87,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(4)}
               className="grid-item"
+              style={{ order: 4 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '1/1' }}>
                 <img src={visualProjects[4].image} alt="J.L PaPa" className="grid-image" />
@@ -94,6 +99,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(7)}
               className="grid-item"
+              style={{ order: 7 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
                 <img src={visualProjects[7].image} alt="DrivR" className="grid-image" />
@@ -109,6 +115,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(2)}
               className="grid-item"
+              style={{ order: 2 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
                 <img src={visualProjects[2].image} alt="Simbisi Sweater" className="grid-image" />
@@ -120,6 +127,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(5)}
               className="grid-item"
+              style={{ order: 5 }}
             >
               <div className="grid-tile">
                 <img src={visualProjects[5].image} alt="IoT Interface" className="grid-image" style={{ aspectRatio: '4/3' }} />
@@ -131,6 +139,7 @@ export default function VisualDesign() {
               data-reveal
               onMouseEnter={() => setHovered(8)}
               className="grid-item"
+              style={{ order: 8 }}
             >
               <div className="grid-tile" style={{ aspectRatio: '4/5' }}>
                 <img src={visualProjects[8].image} alt="Punk Anime" className="grid-image" />
