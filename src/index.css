@@ -1129,7 +1129,7 @@ a:not([data-tile]):hover {
   }
 
   .header-link {
-    font-size: clamp(15px, 4.2vw, 18px);
+    font-size: clamp(15px, 5.5vw, 63px);
   }
 
   .hover-label {
