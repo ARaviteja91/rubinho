@@ -14,11 +14,11 @@ export default function Landing() {
   const [fontSize, setFontSize] = useState(160);
   const containerRef = useRef(null);
 
-  useEffect(() => {
-    const t = setInterval(() => setFrame((f) => (f + 1) % 6), 320);
-    const redirect = setTimeout(() => go('/home'), 2500);
-    return () => { clearInterval(t); clearTimeout(redirect); };
-  }, []);
+  // useEffect(() => {
+  //   const t = setInterval(() => setFrame((f) => (f + 1) % 6), 320);
+  //   const redirect = setTimeout(() => go('/home'), 2500);
+  //   return () => { clearInterval(t); clearTimeout(redirect); };
+  // }, []);
 
   useEffect(() => {
     const canvas = document.createElement('canvas');
